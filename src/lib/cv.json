@@ -1,0 +1,18 @@
+{
+  "header": {
+    "name": "John Doe",
+    "title": ["Software Engineer", "Full Stack Developer", "UI/UX Designer", "Frontend Developer"],
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "website": "https://www.john-doe.com",
+    "location": "New York, NY",
+    "gender": "male"
+  },
+  "experience": [
+    {
+      "company": "Google",
+      "title": "Software Engineer",
+      "description": "Developed and maintained web applications using React and Node.js."
+    }
+  ]
+}
