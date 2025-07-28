@@ -6,9 +6,9 @@
 </script>
 
 <div class="flex flex-col gap-4 bg-background-header w-full p-6">
-	<div class="flex flex-row gap-6 justify-start items-center">
+	<div class="flex {header.avatarPosition === 'left' ? 'md:flex-row' : 'md:flex-row-reverse'} gap-6 justify-start items-center">
 		<div
-			class="w-24 h-24 bg-avatar-background rounded-full justify-center items-center overflow-hidden p-1 hidden md:flex"
+			class="w-24 h-24 bg-avatar-background rounded-full justify-center items-center overflow-hidden p-1 hidden md:flex "
 		>
 			{#if header.gender === 'male'}
 				<ManAvatar fillColor="var(--color-avatar)" customClass="w-fit mt-4" />

@@ -3,7 +3,7 @@
   import AppNavigation from "$lib/components/AppNavigation.svelte";
 </script>
 
-<div class="flex flex-row">
+<div class="flex flex-row relative">
   <AppNavigation />
   <AppCV />
 </div>

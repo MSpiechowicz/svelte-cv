@@ -12,7 +12,7 @@
 	} from '@tabler/icons-svelte';
 </script>
 
-<div class="relative">
+<div class="absolute">
 	<!-- Toggle button for mobile/tablet -->
 	<button
 		onclick={navigationStore.toggle}
