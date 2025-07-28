@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+  import AppCV from "$lib/components/AppCV.svelte";
+  import AppNavigation from "$lib/components/AppNavigation.svelte";
+</script>
+
+<div class="flex flex-row md:flex-col">
+  <AppNavigation />
+  <AppCV />
+</div>
