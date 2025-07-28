@@ -16,7 +16,7 @@
 	<!-- Toggle button for mobile/tablet -->
 	<button
 		onclick={navigationStore.toggle}
-		class="md:hidden fixed top-4 left-4 z-50 p-2 bg-background-secondary dark:bg-background-secondary-dark rounded-lg shadow-lg hover:bg-background-tertiary dark:hover:bg-background-tertiary-dark transition-colors"
+		class="md:hidden fixed top-4 left-5 z-50 p-2 bg-background-secondary rounded-lg shadow-xl dark:border border-gray-200 dark:border-gray-700"
 	>
 		{#if navigationStore.isOpen}
 			<IconTransitionLeftFilled class="w-10 h-10 text-icon dark:text-icon-dark" />
