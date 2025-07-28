@@ -3,31 +3,41 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-primary: #3b82f6;
-  --color-primary-dark: #60a5fa;
   --color-secondary: #ffffff;
-  --color-secondary-dark: #f5f5f5;
 
   --color-background: #f8fafc;
-  --color-background-dark: #0f172a;
   --color-background-secondary: #f1f5f9;
-  --color-background-secondary-dark: #1e293b;
   --color-background-card: #ffffff;
-  --color-background-card-dark: #1e293b;
 
   --color-text-primary: #0f172a;
-  --color-text-primary-dark: #f1f5f9;
   --color-text-secondary: #64748b;
-  --color-text-secondary-dark: #94a3b8;
 
   --color-icon: #334155;
-  --color-icon-dark: #cbd5e1;
   --color-icon-hover: #e2e8f0;
-  --color-icon-hover-dark: #334155;
   --color-icon-active: #dbeafe;
-  --color-icon-active-dark: #1e40af;
 
   --font-sans: 'Nunito', sans-serif;
   --font-mono: 'Nunito', monospace;
+}
+
+@layer theme {
+  .dark {
+    --color-primary: #60a5fa;
+    --color-secondary: #f5f5f5;
+
+    --color-background: #0f172a;
+    --color-background-secondary: #1e293b;
+    --color-background-card: #1e293b;
+
+    --color-text-primary: #f1f5f9;
+    --color-text-secondary: #94a3b8;
+
+    --color-icon: #cbd5e1;
+    --color-icon-hover: #334155;
+    --color-icon-active: #1e40af;
+  }
 }

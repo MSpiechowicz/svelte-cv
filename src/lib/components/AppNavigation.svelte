@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { navigationStore } from '$lib/stores/navigationStore.svelte';
+	import { themeStore } from '$lib/stores/themeStore.svelte';
 	import {
 		IconBookFilled,
 		IconBriefcase2Filled,
+		IconMoonFilled,
+		IconSunFilled,
 		IconTransitionLeftFilled,
 		IconTransitionRightFilled,
 		IconUserFilled
@@ -38,6 +41,19 @@
 		<IconBookFilled
 			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
 		/>
+
+		<!-- Dark mode toggle -->
+		<button
+			onclick={themeStore.toggle}
+			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer transition-colors"
+			aria-label="Toggle dark mode"
+		>
+			{#if themeStore.isDark}
+				<IconSunFilled class="w-10 h-10" />
+			{:else}
+				<IconMoonFilled class="w-10 h-10" />
+			{/if}
+		</button>
 	</nav>
 
 	<!-- Overlay for mobile when navigation is open -->
