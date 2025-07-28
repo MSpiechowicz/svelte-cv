@@ -4,7 +4,7 @@
     "title": ["Software Engineer", "Full Stack Developer", "UI/UX Designer", "Frontend Developer"],
     "email": "john.doe@example.com",
     "phone": "+1234567890",
-    "website": "https://www.john-doe.com",
+    "website": "www.john-doe.com",
     "location": "New York, NY",
     "gender": "male",
     "avatar": "https://www.google.com/avatar.png",
