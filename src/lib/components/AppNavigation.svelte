@@ -6,26 +6,11 @@
 		IconBriefcase2Filled,
 		IconMoonFilled,
 		IconSunFilled,
-		IconTransitionLeftFilled,
-		IconTransitionRightFilled,
 		IconUserFilled
 	} from '@tabler/icons-svelte';
 </script>
 
-<div class="absolute">
-	<!-- Toggle button for mobile/tablet -->
-	<button
-		onclick={navigationStore.toggle}
-		class="md:hidden fixed top-4 left-5 z-50 p-2 bg-background-secondary rounded-lg shadow-xl dark:border border-gray-200 dark:border-gray-700"
-	>
-		{#if navigationStore.isOpen}
-			<IconTransitionLeftFilled class="w-10 h-10 text-icon dark:text-icon-dark" />
-		{:else}
-			<IconTransitionRightFilled class="w-10 h-10 text-icon dark:text-icon-dark" />
-		{/if}
-	</button>
-
-	<!-- Navigation panel -->
+<div class="absolute md:relative">
 	<nav
 		class="flex relative justify-center items-center flex-col w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-40 border-r border-border
 		md:translate-x-0
@@ -42,7 +27,6 @@
 			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
 		/>
 
-		<!-- Dark mode toggle -->
 		<button
 			onclick={themeStore.toggle}
 			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer transition-colors"
@@ -56,7 +40,6 @@
 		</button>
 	</nav>
 
-	<!-- Overlay for mobile when navigation is open -->
 	{#if navigationStore.isOpen}
 		<button
 			class="md:hidden fixed inset-0 bg-opacity-50 z-30"

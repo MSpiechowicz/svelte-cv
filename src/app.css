@@ -78,3 +78,13 @@
     --font-mono: 'Nunito', monospace;
   }
 }
+
+p {
+  max-width: 60ch;
+}
+
+@media (min-width: 1024px) {
+  p {
+    max-width: 80ch;
+  }
+}

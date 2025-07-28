@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="flex flex-col shadow-xl rounded-xl mx-auto my-6 border border-border min-w-3xl max-w-6xl overflow-hidden"
+	class="flex flex-col shadow-xl md:rounded-xl mx-auto my-6 border border-border min-w-full md:min-w-fit max-w-6xl overflow-hidden"
 >
 	<AppCVHeader />
 	<AppCVSummary />

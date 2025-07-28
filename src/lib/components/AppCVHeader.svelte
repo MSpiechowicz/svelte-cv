@@ -2,10 +2,13 @@
 	import { header } from '$lib/cv.json';
 	import ManAvatar from '$lib/static/ManAvatar.svelte';
 	import WomanAvatar from '$lib/static/WomanAvatar.svelte';
+	import { navigationStore } from '$lib/stores/navigationStore.svelte';
 	import {
 		IconAmpersand,
 		IconMailFilled,
 		IconMapPinFilled,
+		IconMenu2,
+		IconMenu3,
 		IconPhoneFilled,
 		IconWorldWww
 	} from '@tabler/icons-svelte';
@@ -39,7 +42,7 @@
 			: 'md:flex-row-reverse'} gap-6 justify-start items-center"
 	>
 		<div
-			class="w-28 h-28 bg-avatar-background rounded-full justify-center items-center overflow-hidden p-1 hidden md:flex border-2 border-avatar-ring"
+			class="w-28 h-auto bg-avatar-background rounded-full justify-center items-center overflow-hidden hidden lg:flex border-2 border-avatar-ring"
 		>
 			{#if header.gender === 'male'}
 				<ManAvatar fillColor="var(--color-avatar)" customClass="w-fit mt-2" />
@@ -47,8 +50,17 @@
 				<WomanAvatar fillColor="var(--color-avatar)" customClass="w-fit mt-2" />
 			{/if}
 		</div>
-		<div class="flex flex-col gap-1">
-			<h1 class="text-4xl uppercase font-bold text-text-header">{header.name}</h1>
+		<div class="flex flex-col gap-1 w-full">
+			<div class="flex flex-row justify-between items-center">
+				<h1 class="text-4xl uppercase font-bold text-text-header">{header.name}</h1>
+				<button class="md:hidden" onclick={navigationStore.toggle}>
+					{#if navigationStore.isOpen}
+						<IconMenu3 size={36} class="text-text-header-secondary cursor-pointer" />
+					{:else}
+						<IconMenu2 size={36} class="text-text-header-secondary cursor-pointer" />
+					{/if}
+				</button>
+			</div>
 			<div class="flex flex-col md:flex-row justify-start gap-0 md:gap-1 items-start">
 				{#each header.title as title, index (index)}
 					{#if index < 2 || isXlScreen}
