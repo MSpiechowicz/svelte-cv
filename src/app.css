@@ -20,6 +20,8 @@
   --color-icon-hover: #e2e8f0;
   --color-icon-active: #dbeafe;
 
+  --color-border: #e2e8f0;
+
   --font-sans: 'Nunito', sans-serif;
   --font-mono: 'Nunito', monospace;
 }
@@ -39,5 +41,7 @@
     --color-icon: #cbd5e1;
     --color-icon-hover: #334155;
     --color-icon-active: #1e40af;
+
+    --color-border: #334155;
   }
 }

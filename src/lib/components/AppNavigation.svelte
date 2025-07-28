@@ -27,7 +27,7 @@
 
 	<!-- Navigation panel -->
 	<nav
-		class="flex relative justify-center items-center flex-col w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-40
+		class="flex relative justify-center items-center flex-col w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-40 border-r border-border
 		md:translate-x-0
 		{navigationStore.isOpen ? 'translate-x-0' : '-translate-x-full'}
 		"
