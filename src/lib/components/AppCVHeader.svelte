@@ -6,23 +6,27 @@
 </script>
 
 <div class="flex flex-col gap-4 bg-background-header w-full p-6">
-	<div class="flex {header.avatarPosition === 'left' ? 'md:flex-row' : 'md:flex-row-reverse'} gap-6 justify-start items-center">
+	<div
+		class="flex {header.avatarPosition === 'left'
+			? 'md:flex-row'
+			: 'md:flex-row-reverse'} gap-6 justify-start items-center"
+	>
 		<div
-			class="w-24 h-24 bg-avatar-background rounded-full justify-center items-center overflow-hidden p-1 hidden md:flex "
+			class="w-24 h-24 bg-avatar-background rounded-full justify-center items-center overflow-hidden p-1 hidden md:flex border-2 border-avatar-ring"
 		>
 			{#if header.gender === 'male'}
-				<ManAvatar fillColor="var(--color-avatar)" customClass="w-fit mt-4" />
+				<ManAvatar fillColor="var(--color-avatar)" customClass="w-fit mt-2" />
 			{:else}
 				<WomanAvatar fillColor="var(--color-avatar)" customClass="w-12 h-12" />
 			{/if}
 		</div>
 		<div class="flex flex-col gap-1">
-			<h1 class="text-4xl uppercase font-bold">{header.name}</h1>
-			<h2 class="text-xl uppercase text-text-secondary flex flex-row gap-1 items-center">
+			<h1 class="text-4xl uppercase font-bold text-text-header">{header.name}</h1>
+			<h2 class="text-xl uppercase text-text-header-secondary flex flex-row gap-1 items-center">
 				{#each header.title as title, index (index)}
 					{title}
 					{#if index < header.title.length - 1}
-						<IconPointFilled class="text-text-secondary" size={16} />
+						<IconPointFilled class="text-text-header-secondary" size={16} />
 					{/if}
 				{/each}
 			</h2>
