@@ -21,6 +21,11 @@
       "anchor": "skills"
     },
     {
+      "text": "Languages",
+      "icon": "IconMoodHappyFilled",
+      "anchor": "languages"
+    },
+    {
       "text": "Education",
       "icon": "IconBookFilled",
       "anchor": "education"
@@ -296,6 +301,38 @@
           }
         ]
       }
+    },
+    {
+      "description": "Language proficiency levels and communication skills in different languages.",
+      "icon": "IconMoodHappyFilled",
+      "title": "Language Proficiency",
+      "anchor": "languages",
+      "languages": [
+        {
+          "name": "English",
+          "level": "Native",
+          "proficiency": 5,
+          "description": "Fluent in speaking, writing, and technical communication"
+        },
+        {
+          "name": "Spanish",
+          "level": "Advanced",
+          "proficiency": 4,
+          "description": "Professional working proficiency in business and technical contexts"
+        },
+        {
+          "name": "French",
+          "level": "Intermediate",
+          "proficiency": 3,
+          "description": "Conversational level with basic technical vocabulary"
+        },
+        {
+          "name": "German",
+          "level": "Basic",
+          "proficiency": 2,
+          "description": "Basic understanding and simple conversations"
+        }
+      ]
     }
   ]
 }
