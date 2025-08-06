@@ -1,4 +1,21 @@
 {
+  "navigation": [
+    {
+      "text": "Summary",
+      "icon": "IconUserFilled",
+      "anchor": "summary"
+    },
+    {
+      "text": "Experience",
+      "icon": "IconBriefcase2Filled",
+      "anchor": "experience"
+    },
+    {
+      "text": "Education",
+      "icon": "IconBookFilled",
+      "anchor": "education"
+    }
+  ],
   "header": {
     "avatar": "https://www.google.com/avatar.png",
     "avatarPosition": "left",
@@ -30,7 +47,8 @@
           "listIcon": "IconSquareRoundedFilled"
         }
       ],
-      "title": "Summary"
+      "title": "Summary",
+      "anchor": "summary"
     },
     {
       "description": "Experienced software engineer with expertise in modern web technologies and frameworks.",
@@ -46,7 +64,8 @@
           "listIcon": "IconSquareRoundedFilled"
         }
       ],
-      "title": "Experience"
+      "title": "Experience",
+      "anchor": "experience"
     }
   ]
 }

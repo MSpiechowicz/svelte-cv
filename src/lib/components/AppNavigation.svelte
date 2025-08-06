@@ -1,13 +1,9 @@
 <script lang="ts">
+	import { navigation } from '$lib/cv.json';
 	import { navigationStore } from '$lib/stores/navigationStore.svelte';
 	import { themeStore } from '$lib/stores/themeStore.svelte';
-	import {
-		IconBookFilled,
-		IconBriefcase2Filled,
-		IconMoonFilled,
-		IconSunFilled,
-		IconUserFilled
-	} from '@tabler/icons-svelte';
+	import { IconMoonFilled, IconSunFilled } from '@tabler/icons-svelte';
+	import AppCVSectionIcon from './AppCVSectionIcon.svelte';
 	import AppNavigationTooltip from './AppNavigationTooltip.svelte';
 </script>
 
@@ -18,26 +14,15 @@
 		{navigationStore.isOpen ? 'translate-x-0' : '-translate-x-full'}
 		"
 	>
-		<div class="relative group">
-			<IconUserFilled
-				class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
-			/>
-			<AppNavigationTooltip text="About" />
-		</div>
-
-		<div class="relative group">
-			<IconBriefcase2Filled
-				class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
-			/>
-			<AppNavigationTooltip text="Experience" />
-		</div>
-
-		<div class="relative group">
-			<IconBookFilled
-				class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
-			/>
-			<AppNavigationTooltip text="Education" />
-		</div>
+		{#each navigation as item, index (index)}
+			<div class="relative group">
+				<AppCVSectionIcon
+					icon={item.icon}
+					additionalClass="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
+				/>
+				<AppNavigationTooltip text={item.text} />
+			</div>
+		{/each}
 
 		<div class="relative group">
 			<button
