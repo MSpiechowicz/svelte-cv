@@ -8,6 +8,7 @@
 		IconSunFilled,
 		IconUserFilled
 	} from '@tabler/icons-svelte';
+	import AppNavigationTooltip from './AppNavigationTooltip.svelte';
 </script>
 
 <div class="absolute md:relative">
@@ -17,27 +18,41 @@
 		{navigationStore.isOpen ? 'translate-x-0' : '-translate-x-full'}
 		"
 	>
-		<IconUserFilled
-			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
-		/>
-		<IconBriefcase2Filled
-			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
-		/>
-		<IconBookFilled
-			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
-		/>
+		<div class="relative group">
+			<IconUserFilled
+				class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
+			/>
+			<AppNavigationTooltip text="About" />
+		</div>
 
-		<button
-			onclick={themeStore.toggle}
-			class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer transition-colors"
-			aria-label="Toggle dark mode"
-		>
-			{#if themeStore.isDark}
-				<IconSunFilled class="w-10 h-10" />
-			{:else}
-				<IconMoonFilled class="w-10 h-10" />
-			{/if}
-		</button>
+		<div class="relative group">
+			<IconBriefcase2Filled
+				class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
+			/>
+			<AppNavigationTooltip text="Experience" />
+		</div>
+
+		<div class="relative group">
+			<IconBookFilled
+				class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
+			/>
+			<AppNavigationTooltip text="Education" />
+		</div>
+
+		<div class="relative group">
+			<button
+				onclick={themeStore.toggle}
+				class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer transition-colors"
+				aria-label="Toggle dark mode"
+			>
+				{#if themeStore.isDark}
+					<IconSunFilled class="w-10 h-10" />
+				{:else}
+					<IconMoonFilled class="w-10 h-10" />
+				{/if}
+			</button>
+			<AppNavigationTooltip text={themeStore.isDark ? 'Light Mode' : 'Dark Mode'} />
+		</div>
 	</nav>
 
 	{#if navigationStore.isOpen}
