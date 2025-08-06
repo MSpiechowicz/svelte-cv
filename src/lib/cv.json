@@ -11,6 +11,11 @@
       "anchor": "experience"
     },
     {
+      "text": "Timeline",
+      "icon": "IconChartAreaLineFilled",
+      "anchor": "timeline"
+    },
+    {
       "text": "Education",
       "icon": "IconBookFilled",
       "anchor": "education"
@@ -66,6 +71,156 @@
       ],
       "title": "Experience",
       "anchor": "experience"
+    },
+    {
+      "description": "Career progression and timeline of professional roles and responsibilities.",
+      "icon": "IconChartAreaLineFilled",
+      "title": "Career Timeline",
+      "anchor": "timeline",
+      "timeline": {
+        "title": "CAREER TIMELINE",
+        "startYear": 2011,
+        "endYear": 2024,
+        "roles": [
+          {
+            "name": "Engineering Management",
+            "color": "#ef4444",
+            "totalDuration": "5y 7m",
+            "periods": [
+              {
+                "start": "2017-06",
+                "end": "2018-11",
+                "duration": "1y 5m"
+              },
+              {
+                "start": "2020-01",
+                "end": "2024-12",
+                "duration": "4y 2m"
+              }
+            ]
+          },
+          {
+            "name": "Technical Leadership",
+            "color": "#f97316",
+            "totalDuration": "5y 8m",
+            "periods": [
+              {
+                "start": "2013-01",
+                "end": "2014-06",
+                "duration": "1y 5m"
+              },
+              {
+                "start": "2015-08",
+                "end": "2017-12",
+                "duration": "2y 5m"
+              },
+              {
+                "start": "2019-01",
+                "end": "2019-08",
+                "duration": "8m"
+              },
+              {
+                "start": "2020-10",
+                "end": "2021-12",
+                "duration": "1y 2m"
+              }
+            ]
+          },
+          {
+            "name": "Team Leadership",
+            "color": "#22c55e",
+            "totalDuration": "4y 3m",
+            "periods": [
+              {
+                "start": "2016-06",
+                "end": "2018-11",
+                "duration": "2y 5m"
+              },
+              {
+                "start": "2020-01",
+                "end": "2020-12",
+                "duration": "1y"
+              },
+              {
+                "start": "2023-06",
+                "end": "2024-12",
+                "duration": "10m"
+              }
+            ]
+          },
+          {
+            "name": "Software Development",
+            "color": "#3b82f6",
+            "totalDuration": "10y 4m",
+            "periods": [
+              {
+                "start": "2012-01",
+                "end": "2015-01",
+                "duration": "3y 10m"
+              },
+              {
+                "start": "2016-06",
+                "end": "2018-06",
+                "duration": "2y 4m"
+              },
+              {
+                "start": "2020-01",
+                "end": "2022-06",
+                "duration": "2y 2m"
+              }
+            ]
+          },
+          {
+            "name": "Test Automation",
+            "color": "#a855f7",
+            "totalDuration": "6y 7m",
+            "periods": [
+              {
+                "start": "2011-01",
+                "end": "2011-11",
+                "duration": "11m"
+              },
+              {
+                "start": "2014-01",
+                "end": "2017-01",
+                "duration": "3y"
+              },
+              {
+                "start": "2019-01",
+                "end": "2019-08",
+                "duration": "8m"
+              },
+              {
+                "start": "2020-10",
+                "end": "2021-12",
+                "duration": "1y 2m"
+              },
+              {
+                "start": "2023-06",
+                "end": "2024-12",
+                "duration": "10m"
+              }
+            ]
+          },
+          {
+            "name": "DevOps",
+            "color": "#ec4899",
+            "totalDuration": "6y 6m",
+            "periods": [
+              {
+                "start": "2015-01",
+                "end": "2019-06",
+                "duration": "5y 4m"
+              },
+              {
+                "start": "2020-10",
+                "end": "2021-12",
+                "duration": "1y 2m"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
