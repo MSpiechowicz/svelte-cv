@@ -1,30 +1,52 @@
 {
   "header": {
-    "name": "John Doe",
-    "title": ["Software Engineer", "Full Stack Developer", "UI/UX Designer", "Frontend Developer"],
-    "email": "john.doe@example.com",
-    "phone": "+1234567890",
-    "website": "www.john-doe.com",
-    "location": "New York, NY",
-    "gender": "male",
     "avatar": "https://www.google.com/avatar.png",
-    "avatarPosition": "left"
+    "avatarPosition": "left",
+    "email": "john.doe@example.com",
+    "gender": "male",
+    "location": "New York, NY",
+    "name": "John Doe",
+    "phone": "+1234567890",
+    "title": [
+      "Software Engineer",
+      "Full Stack Developer",
+      "UI/UX Designer",
+      "Frontend Developer"
+    ],
+    "website": "www.john-doe.com"
   },
-  "summary": {
-    "title": "Summary",
-    "description": "I am a software engineer with a passion for building web applications. I am a quick learner and I am always looking to improve my skills.",
-    "items": [
-      "I am a software engineer with a <b>passion</b> for building web applications.",
-      "I am a <b>quick learner</b> and I am always looking to improve my skills.",
-      "I am a software engineer with a <b>passion</b> for building web applications.",
-      "I am a <b>quick learner</b> and I am always looking to improve my skills."
-    ]
-  },
-  "experience": [
+  "sections": [
     {
-      "company": "Google",
-      "title": "Software Engineer",
-      "description": "Developed and maintained web applications using React and Node.js."
+      "description": "I am a software engineer with a passion for building web applications. I am a quick learner and I am always looking to improve my skills.",
+      "icon": "IconUserFilled",
+      "items": [
+        {
+          "list": [
+            "I am a software engineer with a <b>passion</b> for building web applications.",
+            "I am a <b>quick learner</b> and I am always looking to improve my skills.",
+            "I am a software engineer with a <b>passion</b> for building web applications.",
+            "I am a <b>quick learner</b> and I am always looking to improve my skills."
+          ],
+          "listIcon": "IconSquareRoundedFilled"
+        }
+      ],
+      "title": "Summary"
+    },
+    {
+      "description": "Experienced software engineer with expertise in modern web technologies and frameworks.",
+      "icon": "IconBriefcase2Filled",
+      "items": [
+        {
+          "list": [
+            "5+ years of experience in <b>full-stack development</b>",
+            "Proficient in <b>React, Node.js, and TypeScript</b>",
+            "Experience with <b>cloud platforms</b> and DevOps practices",
+            "Strong problem-solving and <b>communication skills</b>"
+          ],
+          "listIcon": "IconSquareRoundedFilled"
+        }
+      ],
+      "title": "Experience"
     }
   ]
 }

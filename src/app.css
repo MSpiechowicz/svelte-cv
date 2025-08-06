@@ -80,7 +80,8 @@
 }
 
 p {
-  max-width: 60ch;
+  max-width: 70ch;
+  line-height: 1.4;
 }
 
 @media (min-width: 1024px) {
