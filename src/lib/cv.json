@@ -66,21 +66,54 @@
       "anchor": "summary"
     },
     {
-      "description": "Experienced software engineer with expertise in modern web technologies and frameworks.",
+      "description": "Professional experience and achievements across various roles and companies.",
       "icon": "IconBriefcase2Filled",
-      "items": [
-        {
-          "list": [
-            "5+ years of experience in <b>full-stack development</b>",
-            "Proficient in <b>React, Node.js, and TypeScript</b>",
-            "Experience with <b>cloud platforms</b> and DevOps practices",
-            "Strong problem-solving and <b>communication skills</b>"
-          ],
-          "listIcon": "IconSquareRoundedFilled"
-        }
-      ],
       "title": "Experience",
-      "anchor": "experience"
+      "anchor": "experience",
+      "experience": [
+        {
+          "title": "Lead Software Engineer in Test",
+          "subtitle": "Test Architect, Technical Lead",
+          "company": "EPAM",
+          "logo": "https://images.seeklogo.com/logo-png/35/1/epam-logo-png_seeklogo-352146.png",
+          "startDate": "January 2021",
+          "endDate": "February 2022",
+          "duration": "1 year 2 months",
+          "bullets": [
+            "Co-authored a comprehensive QA strategy document, focusing on the Software Testing Life Cycle, Defect Management, Sign-off, and Triage, resulting in standardized QA practices adoption.",
+            "Evaluated the existing test automation project for compliance with industry standards, delivering a detailed report outlining violations, risk analysis, and prioritized improvement recommendations.",
+            "Architected the Proof of Concept and Minimum Viable Product for the next-generation test automation framework, surpassing legacy solutions in readability, reliability, scalability, and maintainability.",
+            "Reverse-engineered undocumented external services to implement a mock with template-based responses, enabling isolated testing, minimizing test flakiness, and reducing test environment costs.",
+            "Improved UI test execution time by 73% using the mock and new framework, cutting average test duration from 143 to 38 seconds.",
+            "Developed CI/CD workflows in Azure Pipelines, structuring modular YAML templates to standardize and reuse stages, jobs, and steps.",
+            "Led and upskilled a team of 6 test automation engineers, providing hands-on technical guidance to enhance team performance."
+          ],
+          "languages": "C#, YAML, JSON, XML, XPath, RegExp",
+          "approach": "Scrum",
+          "keywords": "ASP.NET, REST",
+          "tools": "Azure DevOps, Selenium WebDriver, RestSharp, Azure Key Vault, MSAL, Postman, Swagger, StyleCop, Hyper-V Manager"
+        },
+        {
+          "title": "Senior Software Engineer",
+          "subtitle": "Full Stack Developer",
+          "company": "TechCorp",
+          "logo": "https://via.placeholder.com/64x64/10b981/ffffff?text=TC",
+          "startDate": "March 2022",
+          "endDate": "Present",
+          "duration": "2 years 9 months",
+          "bullets": [
+            "Developed and maintained scalable web applications using React, Node.js, and TypeScript.",
+            "Implemented CI/CD pipelines using GitHub Actions and Docker, reducing deployment time by 60%.",
+            "Led a team of 4 developers in implementing new features and bug fixes.",
+            "Optimized database queries and improved application performance by 40%.",
+            "Mentored junior developers and conducted code reviews to maintain code quality."
+          ],
+          "languages": "TypeScript, JavaScript, Python, SQL",
+          "approach": "Agile",
+          "keywords": "React, Node.js, AWS",
+          "tools": "GitHub, Docker, AWS, Jest, Cypress"
+        }
+      ]
     },
     {
       "description": "Career progression and timeline of professional roles and responsibilities.",
