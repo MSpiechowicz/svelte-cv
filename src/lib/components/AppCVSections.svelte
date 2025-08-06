@@ -2,6 +2,7 @@
 	import { sections } from '$lib/cv.json';
 	import AppCVSectionItems from './AppCVSectionItems.svelte';
 	import AppCVSectionTitle from './AppCVSectionTitle.svelte';
+	import AppCVSkills from './AppCVSkills.svelte';
 	import AppCVTimeline from './AppCVTimeline.svelte';
 </script>
 
@@ -11,6 +12,8 @@
 		<p class="text-text-secondary mb-2">{section.description}</p>
 		{#if section.timeline}
 			<AppCVTimeline timeline={section.timeline} />
+		{:else if section.skills}
+			<AppCVSkills skills={section.skills} />
 		{:else if section.items}
 			<AppCVSectionItems items={section.items} />
 		{/if}

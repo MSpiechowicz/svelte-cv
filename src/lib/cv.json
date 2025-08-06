@@ -16,6 +16,11 @@
       "anchor": "timeline"
     },
     {
+      "text": "Skills",
+      "icon": "IconCarambolaFilled",
+      "anchor": "skills"
+    },
+    {
       "text": "Education",
       "icon": "IconBookFilled",
       "anchor": "education"
@@ -218,6 +223,76 @@
                 "duration": "1y 2m"
               }
             ]
+          }
+        ]
+      }
+    },
+    {
+      "description": "Technical skills and proficiency levels in programming languages and development tools.",
+      "icon": "IconCarambolaFilled",
+      "title": "Technical Skills",
+      "anchor": "skills",
+      "skills": {
+        "categories": [
+          {
+            "name": "Languages",
+            "mainSkills": [
+              {
+                "name": "C#",
+                "rating": 5
+              },
+              {
+                "name": "JavaScript",
+                "rating": 3
+              },
+              {
+                "name": "Python",
+                "rating": 2
+              }
+            ],
+            "additionalSkills": [
+              "TypeScript", "Java", "PHP", "C++", "Visual Basic", "Kotlin", "Scala",
+              "Tcl+Expect", "Batch", "Bash", "PowerShell", "RegExp", "SQL", "HTML", "CSS"
+            ],
+            "additionalSkillsCut": 10
+          },
+          {
+            "name": "Tools",
+            "mainSkills": [
+              {
+                "name": "Selenium WebDriver",
+                "rating": 5
+              },
+              {
+                "name": "Git",
+                "rating": 5
+              },
+              {
+                "name": "Perplexity AI",
+                "rating": 4
+              },
+              {
+                "name": "RestSharp",
+                "rating": 4
+              },
+              {
+                "name": "Azure DevOps",
+                "rating": 4
+              },
+              {
+                "name": "Jira",
+                "rating": 3
+              }
+            ],
+            "additionalSkills": [
+              "ChatGPT", "Google Gemini", "Claude", "Coded UI", "Protractor", "Node.js",
+              "Spring", "Azure Logic Apps", "Visual Studio", "CouchDB", "SSMS", "MySQL",
+              "Postman", "Fiddler", "Wireshark", "Swagger", "Doxygen", "Jenkins",
+              "TeamCity", "SonarQube", "Fortify", "GitLab", "VersionOne", "ServiceNow",
+              "VMware vSphere", "Hyper-V Manager", "Splunk", "Word", "Excel", "Outlook",
+              "SharePoint", "Office 365", "Power BI", "Microsoft Teams", "Zoom", "Slack", "Mentimeter"
+            ],
+            "additionalSkillsCut": 15
           }
         ]
       }
