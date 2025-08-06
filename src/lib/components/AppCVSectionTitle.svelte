@@ -1,10 +1,10 @@
 <script lang="ts">
 	import AppCVSectionIcon from './AppCVSectionIcon.svelte';
 
-	let { title, icon } = $props();
+	let { title, icon, anchor } = $props();
 </script>
 
-<div class="mt-6 px-4 py-2 border-l-4 border-accent mb-4">
+<div id={anchor} class="mt-6 px-4 py-2 border-l-4 border-accent mb-4">
 	<h2 class="text-xl font-bold text-accent flex gap-2 uppercase">
 		{#if icon}
 			<AppCVSectionIcon {icon} />

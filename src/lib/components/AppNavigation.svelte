@@ -5,6 +5,13 @@
 	import { IconMoonFilled, IconSunFilled } from '@tabler/icons-svelte';
 	import AppCVSectionIcon from './AppCVSectionIcon.svelte';
 	import AppNavigationTooltip from './AppNavigationTooltip.svelte';
+
+	function scrollToSection(anchor: string) {
+		const element = document.getElementById(anchor);
+		if (element) {
+			element.scrollIntoView({ behavior: 'smooth' });
+		}
+	}
 </script>
 
 <div class="absolute md:relative">
@@ -16,10 +23,12 @@
 	>
 		{#each navigation as item, index (index)}
 			<div class="relative group">
-				<AppCVSectionIcon
-					icon={item.icon}
-					additionalClass="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
-				/>
+				<button onclick={() => scrollToSection(item.anchor)} aria-label={item.text}>
+					<AppCVSectionIcon
+						icon={item.icon}
+						additionalClass="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
+					/>
+				</button>
 				<AppNavigationTooltip text={item.text} />
 			</div>
 		{/each}
