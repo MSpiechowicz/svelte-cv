@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { header } from '$lib/cv.json';
 	import {
+		IconBrandGithubFilled,
+		IconBrandLinkedinFilled,
 		IconMailFilled,
 		IconMapPinFilled,
 		IconPhoneFilled,
@@ -22,10 +24,22 @@
 			label: header.email
 		},
 		{
-			icon: IconPhoneFilled,
-			href: 'tel:' + header.phone,
+			icon: IconBrandGithubFilled,
+			href: header.github,
 			target: '_blank',
-			label: header.phone
+			label: 'github'
+		},
+		{
+			icon: IconBrandLinkedinFilled,
+			href: header.linkedin,
+			target: '_blank',
+			label: 'linkedin'
+		},
+		{
+			icon: IconPhoneFilled,
+			href: 'tel:' + header?.phone,
+			target: '_blank',
+			label: header?.phone
 		},
 		{
 			icon: IconWorldWww,
@@ -46,14 +60,16 @@
 
 <div class="flex flex-col md:flex-row justify-start items-start text-sm mt-2 gap-1 md:gap-4">
 	{#each items as item, index (index)}
-		<a
-			href={item.href}
-			target={item.target}
-			rel={item.rel}
-			class="text-text-header-secondary flex flex-row justify-center items-center gap-2 hover:underline hover:underline-offset-4"
-		>
-			<item.icon size={16} />
-			{item.label}
-		</a>
+		{#if item.label}
+			<a
+				href={item.href}
+				target={item.target}
+				rel={item.rel}
+				class="text-text-header-secondary flex flex-row justify-center items-center gap-2 hover:underline hover:underline-offset-4"
+			>
+				<item.icon size={16} />
+				{item.label}
+			</a>
+		{/if}
 	{/each}
 </div>

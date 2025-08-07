@@ -6,10 +6,12 @@
     "gender": "male",
     "location": "Butzbach, Hesse, Germany",
     "name": "Maciej Spiechowicz",
-    "phone": "+4915150791280",
+    "phone": "",
     "title": [
       "Lead Web Developer"
     ],
+    "github": "https://github.com/MSpiechowicz",
+    "linkedin": "https://www.linkedin.com/in/mspiechowicz/",
     "website": "www.mspiechowicz.com"
   },
   "navigation": [
