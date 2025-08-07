@@ -1,6 +1,13 @@
 <script lang="ts">
 	let { timeline } = $props();
 
+	let tooltipVisible = $state(false);
+	let tooltipText = $state('');
+	let tooltipColor = $state('');
+	let tooltipX = $state(0);
+	let tooltipY = $state(0);
+	let tooltipTimeout: number;
+
 	function getCurrentYear(): number {
 		return new Date().getFullYear();
 	}
@@ -36,9 +43,37 @@
 		}
 		return years;
 	}
+
+	function showTooltip(event: MouseEvent, roleName: string, color: string) {
+		clearTimeout(tooltipTimeout);
+		tooltipTimeout = setTimeout(() => {
+			tooltipText = roleName;
+			tooltipColor = color;
+			tooltipX = event.clientX;
+			tooltipY = event.clientY;
+			tooltipVisible = true;
+		}, 500);
+	}
+
+	function hideTooltip() {
+		clearTimeout(tooltipTimeout);
+		tooltipVisible = false;
+	}
 </script>
 
 <div class="bg-background overflow-x-auto">
+	{#if tooltipVisible}
+		<div
+			class="fixed z-50 px-3 py-2 text-xs font-medium text-white rounded shadow-lg pointer-events-none"
+			style="
+				left: {tooltipX + 10}px;
+				top: {tooltipY - 40}px;
+				background-color: {tooltipColor};
+			"
+		>
+			{tooltipText}
+		</div>
+	{/if}
 	<div class="relative min-w-[600px]">
 		<div class="relative">
 			<div class="flex">
@@ -70,17 +105,18 @@
 					{#each timeline.roles as role, index (role.name)}
 						<div class="relative h-8 {index % 2 === 1 ? 'bg-transparent' : ''} rounded px-1">
 							{#each role.periods as period (period.start + period.end)}
-								<div
-									class="absolute h-6 rounded flex items-center justify-center text-[10px] font-medium text-white shadow-sm cursor-pointer hover:opacity-80 transition-opacity min-w-10"
+								<button
+									class="absolute h-6 rounded flex items-center justify-center text-xs font-medium text-white shadow-sm cursor-pointer hover:opacity-80 transition-opacity min-w-10"
 									style="
 										left: {getPeriodLeft(period.start)}%;
 										width: {getPeriodWidth(period.start, period.end)}%;
 										background-color: {role.color};
 									"
-									title="{role.name}: {period.duration}"
+									onmouseenter={(e) => showTooltip(e, role.name, role.color)}
+									onmouseleave={hideTooltip}
 								>
 									{period.duration}
-								</div>
+								</button>
 							{/each}
 						</div>
 					{/each}
