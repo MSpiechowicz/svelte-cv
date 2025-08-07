@@ -61,7 +61,7 @@
 	}
 </script>
 
-<div class="bg-background overflow-x-auto z-[-1]">
+<div class="bg-background overflow-x-auto z-[-1] md:z-0">
 	{#if tooltipVisible}
 		<div
 			class="fixed z-40 px-3 py-2 text-xs font-medium text-white rounded shadow-lg pointer-events-none"
