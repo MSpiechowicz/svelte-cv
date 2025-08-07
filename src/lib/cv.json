@@ -312,7 +312,7 @@
         "endYear": 2025,
         "roles": [
           {
-            "name": "Leadership",
+            "name": "Leadership & Management",
             "color": "#ef4444",
             "totalDuration": "current",
             "periods": [
@@ -377,12 +377,12 @@
           {
             "name": "Customer Service Management",
             "color": "#8b5cf6",
-            "totalDuration": "3y 3m",
+            "totalDuration": "6y 5m",
             "periods": [
               {
                 "start": "2008-04",
-                "end": "2011-05",
-                "duration": "3y 3m"
+                "end": "2014-08",
+                "duration": "6y 5m"
               }
             ]
           }
