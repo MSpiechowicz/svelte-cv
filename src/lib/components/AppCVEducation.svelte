@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { handleImageError } from '$lib/utils';
 	import AppCVCard from './AppCVCard.svelte';
 	import AppCVEducationEntry from './AppCVEducationEntry.svelte';
 
@@ -28,12 +29,7 @@
 						src={item.logo}
 						alt="{item.university} logo"
 						class="w-16 h-16 object-contain"
-						onerror={(e) => {
-							const target = e.target as HTMLImageElement;
-							if (target) {
-								target.style.display = 'none';
-							}
-						}}
+						onerror={handleImageError}
 					/>
 				</div>
 			</div>
