@@ -41,27 +41,35 @@
 				</div>
 				{#if item.logo}
 					<div class="hidden sm:block ml-4 flex-shrink-0">
-						<img src={item.logo} alt="{item.company} logo" class="w-16 h-16 object-contain" />
+						<img
+							src={item.logo}
+							alt="{item.company} logo"
+							class="w-16 h-16 object-contain"
+							onerror={(e) => {
+								const target = e.target as HTMLImageElement;
+								if (target) {
+									target.style.display = 'none';
+								}
+							}}
+						/>
 					</div>
 				{/if}
 			</div>
 
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4 max-w-[800px]">
-					{#each item.bullets as bullet (bullet)}
-						<div class="flex items-start gap-2">
-							<div class="w-2 h-2 bg-accent rounded-full mt-1.5 flex-shrink-0"></div>
-							<p class="text-sm text-text-primary leading-relaxed">
-								<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-								{@html bullet}
-							</p>
-						</div>
-					{/each}
+				{#each item.bullets as bullet (bullet)}
+					<div class="flex items-start gap-2">
+						<div class="w-2 h-2 bg-accent rounded-full mt-1.5 flex-shrink-0"></div>
+						<p class="text-sm text-text-primary leading-relaxed">
+							<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+							{@html bullet}
+						</p>
+					</div>
+				{/each}
 			</div>
 
 			{#if item.keywords}
-				<div
-					class="mt-6 bg-background-secondary rounded-lg border border-border overflow-hidden"
-				>
+				<div class="mt-6 bg-background-secondary rounded-lg border border-border overflow-hidden">
 					<div class="px-4 py-2 bg-accent border-t border-l border-r border-accent">
 						<h4 class="text-xs font-semibold text-white uppercase tracking-wide">Keywords</h4>
 					</div>

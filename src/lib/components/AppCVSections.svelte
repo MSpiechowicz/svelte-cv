@@ -7,7 +7,7 @@
 	import AppCVSectionTitle from './AppCVSectionTitle.svelte';
 	import AppCVSkills from './AppCVSkills.svelte';
 	import AppCVTimeline from './AppCVTimeline.svelte';
-	import AppCVExperience from './AppExperience.svelte';
+	import AppCVExperience from './AppCVExperience.svelte';
 </script>
 
 <div class="flex flex-col gap-2 px-6">
