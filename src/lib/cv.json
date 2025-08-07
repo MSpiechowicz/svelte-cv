@@ -54,15 +54,17 @@
   },
   "sections": [
     {
-      "description": "Experienced Lead Web Developer with expertise in React.js, Node.js, and modern web technologies. Passionate about building scalable applications and leading development teams.",
+      "description": "Versatile technology leader with 16+ years of progressive experience spanning from customer service management to senior technical leadership. Transformed from a customer-focused manager into a Lead Web Developer, demonstrating adaptability and continuous learning mindset. Passionate about building scalable applications, mentoring teams, and driving technical excellence through solution architecture and modern development practices.",
       "icon": "IconUserFilled",
       "items": [
         {
           "list": [
-            "Lead web development initiatives with focus on <b>React.js</b> and <b>Node.js</b> technologies",
-            "Architect and implement <b>design systems</b> for consistent user experience across applications",
-            "Drive <b>full-stack development</b> solutions with emphasis on solution architecture",
-            "Lead and mentor development teams while ensuring high <b>code quality standards</b>"
+            "Proven <b>leadership track record</b> with experience managing teams and driving technical initiatives across multiple domains",
+            "Expert in <b>React.js ecosystem</b> and modern frontend development with strong focus on design systems and component architecture",
+            "Full-stack developer with <b>solution architecture</b> expertise, capable of designing scalable applications from concept to deployment",
+            "Demonstrated <b>career transformation</b> from customer service management to technical leadership, showcasing adaptability and growth mindset",
+            "Experienced in <b>test automation</b> and quality assurance, ensuring robust and reliable software delivery",
+            "Strong advocate for <b>team mentoring</b> and knowledge sharing, committed to elevating development practices and code quality standards"
           ],
           "listIcon": "IconSquareRoundedFilled"
         }
