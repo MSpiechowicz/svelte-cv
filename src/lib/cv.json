@@ -174,7 +174,14 @@
         {
           "description": "A collection of useful snippets for various programming languages and tools.",
           "github": "https://github.com/MSpiechowicz/useful-snippets",
-          "title": "Useful Snippets"
+          "title": "Useful Snippets",
+          "technologies": [
+            "Markdown",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS"
+          ]
         }
       ],
       "title": "Projects"
