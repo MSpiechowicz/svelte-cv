@@ -15,7 +15,7 @@
 				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
 					{#each category.mainSkills as skill (skill.name)}
 						<div
-							class="flex items-center justify-between p-2 border border-border/30 rounded shadow-sm"
+							class="flex items-center justify-between p-2 border border-border/30 rounded shadow-sm hover:shadow-md transition-shadow"
 						>
 							<span class="text-sm font-medium text-text-primary">{skill.name}</span>
 							<div class="flex items-center gap-2">
