@@ -24,12 +24,7 @@
 						{/if}
 					</p>
 				</div>
-				<div class="sm:block ml-4 flex-shrink-0 flex flex-col items-end gap-2">
-					{#if item.scholarship}
-						<span class="text-sm font-medium text-accent bg-accent/10 px-2 py-1 rounded">
-							{item.scholarship.name}
-						</span>
-					{/if}
+				<div class="sm:block ml-4 flex-shrink-0">
 					<img
 						src={item.logo}
 						alt="{item.university} logo"
@@ -53,6 +48,14 @@
 					{/each}
 				</div>
 			</div>
+
+			{#if item.scholarship}
+				<div class="mt-4 flex justify-start">
+					<span class="text-sm font-medium text-accent bg-accent/10 px-2 py-1 rounded">
+						{item.scholarship.name}
+					</span>
+				</div>
+			{/if}
 		</div>
 	{/each}
 </div>
