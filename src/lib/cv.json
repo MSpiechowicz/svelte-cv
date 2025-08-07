@@ -613,28 +613,63 @@
       "icon": "IconFoldersFilled",
       "projects": [
         {
-          "title": "Svelte CV Builder",
-          "description": "Modern, responsive CV builder built with Svelte 5 and Tailwind CSS. Features dynamic content management, timeline visualization, and export capabilities.",
+          "title": "Track Things",
+          "description": "Simplify your tracking journey with a user-friendly platform that transforms your data into meaningful charts. No technical skills or spreadsheets required.",
+          "technologies": ["SvelteKit", "TypeScript", "Tailwind CSS", "Vite", "Supabase"],
+          "demo": "https://track-things.com"
+        },
+        {
+          "title": "Flow of Time",
+          "description": "This simple project shares only one purpose - to provide you with the the actual, real time information about the flow of time. We all have our limited time on earth as a human being, so each second matters. Make use of it. Do not waste your time.",
           "technologies": ["Svelte 5", "TypeScript", "Tailwind CSS", "Vite"],
-          "github": "https://github.com/username/svelte-cv",
-          "demo": "https://cv-demo.example.com",
-          "status": "completed"
+          "github": "https://github.com/MSpiechowicz/flowoftime",
+          "demo": "https://mspiechowicz.github.io/flowoftime/"
         },
         {
-          "title": "React Design System",
-          "description": "Comprehensive design system built with React and Storybook. Includes reusable components, documentation, and accessibility features.",
-          "technologies": ["React", "TypeScript", "Storybook", "Styled Components"],
-          "github": "https://github.com/username/react-design-system",
-          "demo": "https://design-system.example.com",
-          "status": "in-progress"
+          "title": "Estimate Electric Car Range",
+          "description": "Estimate the range of your electric car based on the battery capacity and the driving style.",
+          "technologies": ["Svelte 5", "TypeScript", "Tailwind CSS", "Vite"],
+          "github": "https://github.com/MSpiechowicz/estimate-electric-car-range",
+          "demo": "https://mspiechowicz.github.io/estimate-electric-car-range/"
         },
         {
-          "title": "E-commerce Platform",
-          "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-          "technologies": ["Node.js", "React", "MongoDB", "Stripe"],
-          "github": "https://github.com/username/ecommerce-platform",
-          "demo": "https://ecommerce.example.com",
-          "status": "completed"
+          "title": "LazyVim Config",
+          "description": "My personal configuration for LazyVim, a minimalistic and efficient Neovim configuration.",
+          "technologies": ["Neovim", "LazyVim", "Lua"],
+          "github": "https://github.com/MSpiechowicz/lazyvim-config"
+        },
+        {
+          "title": "SvelteKit Blog",
+          "description": "My personal blog built with SvelteKit, a minimalistic and efficient blog framework.",
+          "technologies": ["SvelteKit", "TypeScript", "Tailwind CSS", "Vite"],
+          "github": "https://github.com/MSpiechowicz/sveltekit-blog",
+          "demo": "https://mspiechowicz.com"
+        },
+        {
+          "title": "AI Input Generator",
+          "description": "A brutalist-styled Svelte 5 application that transforms basic user requests into professional, comprehensive AI prompts. Select your project type, input your request, and get an enhanced prompt ready to use with any AI tool.",
+          "technologies": ["Svelte 5", "TypeScript", "Tailwind CSS", "Vite"],
+          "github": "https://github.com/MSpiechowicz/ai-input-generator",
+          "demo": "https://mspiechowicz.github.io/ai-input-generator/"
+        },
+        {
+          "title": "Svelte CV",
+          "description": "My personal CV built with SvelteKit, a minimalistic and efficient CV framework.",
+          "technologies": ["SvelteKit", "TypeScript", "Tailwind CSS", "Vite"],
+          "github": "https://github.com/MSpiechowicz/svelte-cv",
+          "demo": "https://mspiechowicz.github.io/svelte-cv/"
+        },
+        {
+          "title": "Business Card Style Website",
+          "description": "This is a basic business card website that you can use as a template for your personal website. It is built using React and Vite.",
+          "technologies": ["React", "TypeScript", "SCSS", "Vite"],
+          "github": "https://github.com/MSpiechowicz/business-card-style-website",
+          "demo": "https://annaspiechowicz.com"
+        },
+        {
+          "title": "Useful Snippets",
+          "description": "A collection of useful snippets for various programming languages and tools.",
+          "github": "https://github.com/MSpiechowicz/useful-snippets"
         }
       ],
       "title": "Projects"
