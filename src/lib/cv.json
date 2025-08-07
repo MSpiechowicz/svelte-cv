@@ -37,7 +37,6 @@
     }
   ],
   "header": {
-    "avatar": "https://www.google.com/avatar.png",
     "avatarPosition": "left",
     "email": "john.doe@example.com",
     "gender": "male",
@@ -50,7 +49,8 @@
       "UI/UX Designer",
       "Frontend Developer"
     ],
-    "website": "www.john-doe.com"
+    "website": "www.john-doe.com",
+    "avatar": "https://7o11rc0irq.ufs.sh/f/omi1cgRaYepQTRRhXe0Oqv9kNA5bJDyOCVnGdeFQpzB8MjYu"
   },
   "sections": [
     {
