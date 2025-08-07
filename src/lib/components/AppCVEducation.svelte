@@ -36,10 +36,8 @@
 
 			<div class="space-y-1 text-sm text-text-secondary">
 				<div class="flex flex-col mt-2 gap-1">
-					{#each education as item, index (index)}
-						{#each item.entries as entry, index (index)}
-							<AppCVEducationEntry label={entry.label} value={entry.value} />
-						{/each}
+					{#each item.entries as entry, index (index)}
+						<AppCVEducationEntry label={entry.label} value={entry.value} />
 					{/each}
 				</div>
 			</div>
@@ -47,7 +45,7 @@
 			{#if item.scholarship}
 				<div class="mt-4 flex justify-start">
 					<span class="text-sm font-medium text-accent bg-accent/10 px-2 py-1 rounded">
-						{item.scholarship.name}
+						{item.scholarship}
 					</span>
 				</div>
 			{/if}

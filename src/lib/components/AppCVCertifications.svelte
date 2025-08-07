@@ -31,11 +31,13 @@
 					{#each certification.entries as entry, index (index)}
 						<AppCVCertificationEntry label={entry.label} value={entry.value} />
 					{/each}
-					<AppCVCertificationEntry
-						label="Verify"
-						value="View Certificate"
-						href={certification.verifyLink}
-					/>
+					{#if certification.verifyLink}
+						<AppCVCertificationEntry
+							label="Verify"
+							value="View Certificate"
+							href={certification.verifyLink}
+						/>
+					{/if}
 				</div>
 			</div>
 		</AppCVCard>

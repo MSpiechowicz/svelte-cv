@@ -316,7 +316,7 @@
       }
     },
     {
-      "description": "Technical skills and proficiency levels in programming languages and development tools.",
+      "description": "Technical skills and proficiency levels in programming languages, development tools and frameworks.",
       "icon": "IconCarambolaFilled",
       "title": "Technical Skills",
       "anchor": "skills",
@@ -326,12 +326,28 @@
             "name": "Languages",
             "mainSkills": [
               {
-                "name": "C#",
+                "name": "JavaScript",
                 "rating": 5
               },
               {
-                "name": "JavaScript",
+                "name": "HTML",
+                "rating": 5
+              },
+              {
+                "name": "CSS",
+                "rating": 5
+              },
+              {
+                "name": "TypeScript",
+                "rating": 4
+              },
+              {
+                "name": "Java",
                 "rating": 3
+              },
+              {
+                "name": "Go",
+                "rating": 2
               },
               {
                 "name": "Python",
@@ -339,21 +355,15 @@
               }
             ],
             "additionalSkills": [
-              "TypeScript",
-              "Java",
               "PHP",
               "C++",
               "Visual Basic",
               "Kotlin",
-              "Scala",
-              "Tcl+Expect",
               "Batch",
               "Bash",
               "PowerShell",
-              "RegExp",
               "SQL",
-              "HTML",
-              "CSS"
+              "NoSQL"
             ],
             "additionalSkillsCut": 10
           },
@@ -361,70 +371,86 @@
             "name": "Tools",
             "mainSkills": [
               {
-                "name": "Selenium WebDriver",
-                "rating": 5
-              },
-              {
                 "name": "Git",
                 "rating": 5
               },
               {
-                "name": "Perplexity AI",
+                "name": "Cursor",
+                "rating": 5
+              },
+              {
+                "name": "VS Code",
+                "rating": 5
+              },
+              {
+                "name": "Docker",
                 "rating": 4
               },
               {
-                "name": "RestSharp",
-                "rating": 4
-              },
-              {
-                "name": "Azure DevOps",
+                "name": "Jenkins",
                 "rating": 4
               },
               {
                 "name": "Jira",
                 "rating": 3
+              },
+              {
+                "name": "AWS",
+                "rating": 3
+              },
+              {
+                "name": "Kubernetes",
+                "rating": 3
+              },
+              {
+                "name": "Azure",
+                "rating": 2
               }
             ],
             "additionalSkills": [
               "ChatGPT",
               "Google Gemini",
               "Claude",
-              "Coded UI",
-              "Protractor",
-              "Node.js",
-              "Spring",
-              "Azure Logic Apps",
-              "Visual Studio",
-              "CouchDB",
-              "SSMS",
-              "MySQL",
               "Postman",
               "Fiddler",
-              "Wireshark",
               "Swagger",
-              "Doxygen",
               "Jenkins",
               "TeamCity",
               "SonarQube",
-              "Fortify",
               "GitLab",
-              "VersionOne",
-              "ServiceNow",
-              "VMware vSphere",
-              "Hyper-V Manager",
-              "Splunk",
-              "Word",
-              "Excel",
-              "Outlook",
-              "SharePoint",
+              "React DevTools",
               "Office 365",
               "Power BI",
               "Microsoft Teams",
               "Zoom",
               "Slack",
-              "Mentimeter"
+              "Fossa",
+              "Artifactory"
             ],
             "additionalSkillsCut": 15
+          },
+          {
+            "name": "Frameworks",
+            "mainSkills": [
+              {
+                "name": "React",
+                "rating": 5
+              },
+              {
+                "name": "Svelte 5",
+                "rating": 4
+              },
+              {
+                "name": "Tailwind CSS",
+                "rating": 4
+              }
+            ],
+            "additionalSkills": [
+              "Tanstack",
+              "Vue.js",
+              "Angular"
+            ],
+            "additionalSkillsCut": 10
           }
         ]
       }
@@ -436,22 +462,16 @@
       "anchor": "languages",
       "languages": [
         {
-          "name": "English",
+          "name": "Polish",
           "level": "Native",
           "proficiency": 5,
           "description": "Fluent in speaking, writing, and technical communication"
         },
         {
-          "name": "Spanish",
+          "name": "English",
           "level": "Advanced",
           "proficiency": 4,
           "description": "Professional working proficiency in business and technical contexts"
-        },
-        {
-          "name": "French",
-          "level": "Intermediate",
-          "proficiency": 3,
-          "description": "Conversational level with basic technical vocabulary"
         },
         {
           "name": "German",
@@ -468,45 +488,48 @@
       "anchor": "education",
       "education": [
         {
-          "degree": "Master of Science in Computer Science",
-          "university": "UNIWERSYTET ŚLĄSKI",
-          "startDate": "October 2012",
-          "endDate": "September 2014",
-          "duration": "2 years",
-          "logo": "https://via.placeholder.com/64x64/3b82f6/ffffff?text=UŚ",
-          "scholarship": {
-            "name": "Academic Excellence Scholarship",
-            "icon": "IconTrophyFilled"
-          },
+          "degree": "Postgraduate Studies",
+          "university": "AGH UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+          "startDate": "2015",
+          "endDate": "2016",
+          "duration": "1 year",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Znak_graficzny_AGH.svg/1200px-Znak_graficzny_AGH.svg.png",
           "entries": [
             {
-              "label": "Thesis",
-              "value": "Analysis and simulation tests of cellular automata of the fourth class."
-            },
-            {
-              "label": "Languages",
-              "value": "JavaScript, HTML, CSS, XML"
-            },
-            {
-              "label": "Tools",
-              "value": "Vanilla JS, Word, Excel, Visio"
+              "label": "Specjalization",
+              "value": "IT Project Management"
             }
           ]
         },
         {
-          "degree": "Bachelor of Science in Computer Science",
-          "university": "UNIWERSYTET ŚLĄSKI",
-          "startDate": "October 2009",
-          "endDate": "September 2012",
-          "duration": "3 years",
-          "thesis": "Project and implementation of computer remote control with the use of mobile phones.",
-          "languages": "Java, Delphi",
-          "tools": "Android SDK, Eclipse, Word, Excel, Visio",
-          "logo": "https://via.placeholder.com/64x64/3b82f6/ffffff?text=UŚ",
-          "scholarship": {
-            "name": "Merit-Based Scholarship",
-            "icon": "IconAwardFilled"
-          }
+          "degree": "Master of Science",
+          "university": "UNIVERSITY OF SILESIA",
+          "startDate": "2008",
+          "endDate": "2010",
+          "duration": "2 years",
+          "logo": "https://usk.edu.pl/static/assets/images/default_logo.png",
+          "scholarship": "Scholarship for the best students",
+          "entries": [
+            {
+              "label": "Specialization",
+              "value": "Computer Science"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor's Degree",
+          "university": "WYŻSZA SZKOŁA TECHNOLOGII INFORMATYCZNYCH",
+          "startDate": "2004",
+          "endDate": "2008",
+          "duration": "4 years",
+          "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGjsyNE6wDpgg/company-logo_200_200/B4DZfutE.uGsAM-/0/1752056484214/wysza_szkoa_technologii_informatycznych_w_katowicach_logo?e=1757548800&v=beta&t=tMdNh25DbYMVTaKiivoqz-DTZT1_e_UOkBjW4WldGKQ",
+          "scholarship": "Scholarship for the best students",
+          "entries": [
+            {
+              "label": "Specialization",
+              "value": "Computer Science"
+            }
+          ]
         }
       ]
     },
@@ -517,52 +540,192 @@
       "anchor": "certifications",
       "certifications": [
         {
-          "title": "Microsoft Azure Fundamentals",
-          "date": "September 2020",
-          "logo": "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+          "title": "Java and JVM",
+          "date": "October 2018",
+          "logo": "https://avatars.githubusercontent.com/u/1414067?s=280&v=4",
           "entries": [
             {
               "label": "Issuer",
-              "value": "Microsoft"
-            },
-            {
-              "label": "Exam",
-              "value": "AZ-900"
-            },
-            {
-              "label": "Credential ID",
-              "value": "61DCE1861ED87325"
-            },
-            {
-              "label": "Certification Number",
-              "value": "3C89KD-7C4C5C"
+              "value": "Bottega IT Minds"
             }
-          ],
-          "verifyLink": "https://www.credly.com/badges/61dce1861ed87325"
+          ]
         },
         {
-          "title": "Microsoft Office Specialist Master",
-          "date": "June 2013",
-          "logo": "https://images.credly.com/size/680x680/images/4c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+          "title": "Spring Framework 5: Beginner to Guru",
+          "date": "October 2018",
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
-              "value": "Microsoft"
-            },
-            {
-              "label": "Exam",
-              "value": "Word Expert, Excel Expert, PowerPoint, Access, Outlook, OneNote, SharePoint, Office 365"
+              "value": "Udemy"
             },
             {
               "label": "Credential ID",
-              "value": "wb2Wr-HaaY"
-            },
-            {
-              "label": "Certification Number",
-              "value": "3C89KD-7C4C5C"
+              "value": "UC-TSPJH5MT"
             }
           ],
-          "verifyLink": "https://www.microsoft.com/en-us/learning/transcripts.aspx"
+          "verifyLink": "https://www.udemy.com/certificate/UC-TSPJH5MT/"
+        },
+        {
+          "title": "DDD",
+          "date": "October 2017",
+          "logo": "https://avatars.githubusercontent.com/u/1414067?s=280&v=4",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Bottega IT Minds"
+            }
+          ]
+        },
+        {
+          "title": "Attacking and protecting webapps",
+          "date": "April 2017",
+          "logo": "https://bilety.niebezpiecznik.pl/assets/images/nbzp-logo.png",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Niebezpiecznik.pl"
+            }
+          ]
+        },
+        {
+          "title": "AngularJS for Beginners",
+          "date": "August 2016",
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Udemy"
+            },
+            {
+              "label": "Credential ID",
+              "value": "UC-P1FUK1XV"
+            }
+          ],
+          "verifyLink": "https://www.udemy.com/certificate/UC-P1FUK1XV/"
+        },
+        {
+          "title": "Javascript Essentials",
+          "date": "August 2016",
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Udemy"
+            },
+            {
+              "label": "Credential ID",
+              "value": "UC-9EYJJ2E7"
+            }
+          ],
+          "verifyLink": "https://www.udemy.com/certificate/UC-9EYJJ2E7/"
+        },
+        {
+          "title": "Java Design Patterns",
+          "date": "May 2016",
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Udemy"
+            },
+            {
+              "label": "Credential ID",
+              "value": "UC-WEXY5KC7"
+            }
+          ],
+          "verifyLink": "https://www.udemy.com/certificate/UC-WEXY5KC7/"
+        },
+        {
+          "title": "Java Multithreading",
+          "date": "May 2016",
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Udemy"
+            },
+            {
+              "label": "Credential ID",
+              "value": "UC-9DWVDICJ"
+            }
+          ],
+          "verifyLink": "https://www.udemy.com/certificate/UC-9DWVDICJ/"
+        },
+        {
+          "title": "Learn HTML5 from W3C",
+          "date": "July 2015",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlscAvljO6d6IJo8aanhISXBx1g8MxjmJF7g&s",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "edX"
+            },
+            {
+              "label": "Credential ID",
+              "value": "45162a080cbc4cf2ad71e2bfba97c2b7"
+            }
+          ],
+          "verifyLink": "https://s3.amazonaws.com/verify.edx.org/downloads/1352aba2559046f99c4b3eef7be83185/Certificate.pdf"
+        },
+        {
+          "title": "Java Tutorial for Complete Begginers",
+          "date": "June 2015",
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Udemy"
+            },
+            {
+              "label": "Credential ID",
+              "value": "UC-FQ557FII"
+            }
+          ],
+          "verifyLink": "https://www.udemy.com/certificate/UC-FQ557FII/"
+        },
+        {
+          "title": "Introduction to Bootstrap",
+          "date": "May 2015",
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "edX"
+            },
+            {
+              "label": "Credential ID",
+              "value": "8eae9a89a2ee462992607eb36668419f"
+            }
+          ],
+          "verifyLink": "https://s3.amazonaws.com/verify.edx.org/downloads/c5c0a9f3feae4ca8bcf0768d27b727c2/Certificate.pdf"
+        },
+        {
+          "title": "MongoDB for Python Developers",
+          "date": "March 2015",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Mongodb.png",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "mongoDB"
+            },
+            {
+              "label": "Credential ID",
+              "value": "32d18ecd194d4c75babf10143bcab159"
+            }
+          ],
+          "verifyLink": "http://education.mongodb.com/downloads/certificates/32d18ecd194d4c75babf10143bcab159/Certificate.pdf"
+        },
+        {
+          "title": "An Introduction to Interactive Programming in Python",
+          "date": "November 2014",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Coursera_logo_%282020%29.svg/2560px-Coursera_logo_%282020%29.svg.png",
+          "entries": [
+            {
+              "label": "Issuer",
+              "value": "Coursera"
+            }
+          ]
         }
       ]
     }
