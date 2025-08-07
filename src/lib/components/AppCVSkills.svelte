@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { IconStar, IconStarFilled } from '@tabler/icons-svelte';
+	import AppCVCard from './AppCVCard.svelte';
 
 	let { skills } = $props();
 </script>
@@ -14,9 +15,7 @@
 
 				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
 					{#each category.mainSkills as skill (skill.name)}
-						<div
-							class="flex items-center justify-between p-2 border border-border/30 rounded shadow-sm hover:shadow-md transition-shadow"
-						>
+						<AppCVCard class="p-2">
 							<span class="text-sm font-medium text-text-primary">{skill.name}</span>
 							<div class="flex items-center gap-2">
 								<div class="flex items-center gap-1">
@@ -30,7 +29,7 @@
 								</div>
 								<span class="text-xs text-text-secondary">{skill.rating}/5</span>
 							</div>
-						</div>
+						</AppCVCard>
 					{/each}
 				</div>
 

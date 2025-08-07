@@ -1,12 +1,13 @@
 <script lang="ts">
 	import AppCertificationEntry from './AppCertificationEntry.svelte';
+	import AppCVCard from './AppCVCard.svelte';
 
 	let { certifications } = $props();
 </script>
 
 <div class="space-y-6">
 	{#each certifications as certification (certification.title)}
-		<div class="bg-background border border-border rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+		<AppCVCard>
 			<div class="flex justify-between items-start mb-4">
 				<div class="flex-1">
 					<h3 class="text-xl font-bold text-text-primary mb-1">
@@ -55,6 +56,6 @@
 					/>
 				</div>
 			</div>
-		</div>
+		</AppCVCard>
 	{/each}
 </div>
