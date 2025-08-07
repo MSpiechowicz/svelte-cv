@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { icon, additionalClass = '', size = 24 } = $props();
+	let { icon, class: additionalClass = '', size = 24 } = $props();
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
 	let IconComponent: any = $state(null);

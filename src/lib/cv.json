@@ -1,90 +1,75 @@
 {
+  "header": {
+    "avatar": "https://7o11rc0irq.ufs.sh/f/omi1cgRaYepQTRRhXe0Oqv9kNA5bJDyOCVnGdeFQpzB8MjYu",
+    "avatarPosition": "left",
+    "email": "maciej.spiechowicz@gmail.com",
+    "gender": "male",
+    "location": "Butzbach, Hesse, Germany",
+    "name": "Maciej Spiechowicz",
+    "phone": "+4915150791280",
+    "title": [
+      "Lead Web Developer"
+    ],
+    "website": "www.mspiechowicz.com"
+  },
   "navigation": [
     {
-      "text": "Summary",
+      "anchor": "summary",
       "icon": "IconUserFilled",
-      "anchor": "summary"
+      "text": "Summary"
     },
     {
-      "text": "Experience",
+      "anchor": "experience",
       "icon": "IconBriefcase2Filled",
-      "anchor": "experience"
+      "text": "Experience"
     },
     {
-      "text": "Timeline",
+      "anchor": "timeline",
       "icon": "IconChartAreaLineFilled",
-      "anchor": "timeline"
+      "text": "Timeline"
     },
     {
-      "text": "Skills",
+      "anchor": "skills",
       "icon": "IconCarambolaFilled",
-      "anchor": "skills"
+      "text": "Skills"
     },
     {
-      "text": "Languages",
+      "anchor": "languages",
       "icon": "IconMoodHappyFilled",
-      "anchor": "languages"
+      "text": "Languages"
     },
     {
-      "text": "Education",
+      "anchor": "education",
       "icon": "IconBookFilled",
-      "anchor": "education"
+      "text": "Education"
     },
     {
-      "text": "Certifications",
+      "anchor": "certifications",
       "icon": "IconBadgeFilled",
-      "anchor": "certifications"
+      "text": "Certifications"
     }
   ],
-  "header": {
-    "avatarPosition": "left",
-    "email": "john.doe@example.com",
-    "gender": "male",
-    "location": "Frankfurt am Main, Hesse, Germany",
-    "name": "John Doe",
-    "phone": "+1234567890",
-    "title": [
-      "Lead Web Developer",
-      "Senior Frontend Developer",
-      "Full Stack Engineer",
-      "React.js Specialist"
-    ],
-    "website": "www.john-doe.com",
-    "avatar": "https://7o11rc0irq.ufs.sh/f/omi1cgRaYepQTRRhXe0Oqv9kNA5bJDyOCVnGdeFQpzB8MjYu"
-  },
   "sections": [
     {
+      "anchor": "summary",
       "description": "Versatile technology leader with 16+ years of progressive experience spanning from customer service management to senior technical leadership. Transformed from a customer-focused manager into a Lead Web Developer, demonstrating adaptability and continuous learning mindset. Passionate about building scalable applications, mentoring teams, and driving technical excellence through solution architecture and modern development practices.",
       "icon": "IconUserFilled",
-      "items": [
-        {
-          "list": [
-            "Proven <b>leadership track record</b> with experience managing teams and driving technical initiatives across multiple domains",
-            "Expert in <b>React.js ecosystem</b> and modern frontend development with strong focus on design systems and component architecture",
-            "Full-stack developer with <b>solution architecture</b> expertise, capable of designing scalable applications from concept to deployment",
-            "Demonstrated <b>career transformation</b> from customer service management to technical leadership, showcasing adaptability and growth mindset",
-            "Experienced in <b>test automation</b> and quality assurance, ensuring robust and reliable software delivery",
-            "Strong advocate for <b>team mentoring</b> and knowledge sharing, committed to elevating development practices and code quality standards"
-          ],
-          "listIcon": "IconSquareRoundedFilled"
-        }
+      "summary": [
+        "Proven <b>leadership track record</b> with experience managing teams and driving technical initiatives across multiple domains",
+        "Expert in <b>React.js ecosystem</b> and modern frontend development with strong focus on design systems and component architecture",
+        "Full-stack developer with <b>solution architecture</b> expertise, capable of designing scalable applications from concept to deployment",
+        "Demonstrated <b>career transformation</b> from customer service management to technical leadership, showcasing adaptability and growth mindset",
+        "Experienced in <b>test automation</b> and quality assurance, ensuring robust and reliable software delivery",
+        "Strong advocate for <b>team mentoring</b> and knowledge sharing, committed to elevating development practices and code quality standards"
       ],
-      "title": "Summary",
-      "anchor": "summary"
+      "summaryIcon": "IconArrowBigRightLineFilled",
+      "title": "Summary"
     },
     {
-      "description": "Professional experience and achievements across various roles, companies, countries and technologies.",
-      "icon": "IconBriefcase2Filled",
-      "title": "Experience",
       "anchor": "experience",
+      "description": "Professional experience and achievements across various roles, companies, countries and technologies.",
       "experience": [
         {
-          "title": "Lead Web Developer",
-          "company": "Bosch",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
-          "startDate": "April 2024",
-          "endDate": "Present",
-          "duration": "1 year 5 months",
           "bullets": [
             "Lead web development initiatives with focus on Node.js and React.js technologies",
             "Architect and implement design systems for consistent user experience across applications",
@@ -93,15 +78,15 @@
             "Lead and mentor development teams while ensuring high code quality standards",
             "Implement and optimize solution architecture patterns for scalable applications"
           ],
-          "keywords": "React.js, Design System, Full-Stack Development, Solution Architecture, Team Management"
+          "company": "Bosch",
+          "duration": "1 year 5 months",
+          "endDate": "Present",
+          "keywords": "React.js, Design System, Full-Stack Development, Solution Architecture, Team Management",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
+          "startDate": "April 2024",
+          "title": "Lead Web Developer"
         },
         {
-          "title": "Senior Frontend Developer",
-          "company": "Bosch",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
-          "startDate": "October 2023",
-          "endDate": "March 2024",
-          "duration": "6 months",
           "bullets": [
             "Developed and maintained React.js applications with focus on performance and scalability",
             "Implemented comprehensive design systems for consistent UI/UX across platforms",
@@ -110,15 +95,16 @@
             "Applied SASS and CSS for advanced styling and responsive design",
             "Collaborated with cross-functional teams on microservices architecture"
           ],
-          "keywords": "React.js, Design System, Solution Architecture, Microservices"
+          "company": "Bosch",
+          "duration": "6 months",
+          "endDate": "March 2024",
+          "keywords": "React.js, Design System, Solution Architecture, Microservices",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
+          "startDate": "October 2023",
+          "title": "Senior Frontend Developer"
         },
         {
-          "title": "Frontend Developer",
-          "company": "Bosch",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
-          "startDate": "January 2023",
-          "endDate": "September 2023",
-          "duration": "9 months",
+          "approach": "Agile",
           "bullets": [
             "Built reusable web components for scalable frontend architecture",
             "Developed and maintained design systems for consistent user interfaces",
@@ -127,18 +113,17 @@
             "Collaborated with design and development teams on component library development",
             "Ensured cross-browser compatibility and responsive design implementation"
           ],
-          "languages": "JavaScript, Node.js",
-          "approach": "Agile",
+          "company": "Bosch",
+          "duration": "9 months",
+          "endDate": "September 2023",
           "keywords": "React.js, Web Components, Design System, Solution Architecture",
+          "languages": "JavaScript, Node.js",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
+          "startDate": "January 2023",
+          "title": "Frontend Developer",
           "tools": "React.js, Web Components, Design System, Node.js"
         },
         {
-          "title": "Frontend Developer",
-          "company": "COBI.Bike GmbH",
-          "logo": "https://station-frankfurt.de/wp-content/uploads/2016/02/cobi_bike.png",
-          "startDate": "October 2021",
-          "endDate": "December 2022",
-          "duration": "1 year 3 months",
           "bullets": [
             "Developed React.js applications with focus on web components architecture",
             "Implemented design systems for consistent user experience across products",
@@ -147,14 +132,15 @@
             "Collaborated with product teams on feature development and user experience",
             "Maintained and optimized existing frontend codebase"
           ],
-          "keywords": "React.js, Web Components, Design System"
+          "company": "COBI.Bike GmbH",
+          "duration": "1 year 3 months",
+          "endDate": "December 2022",
+          "keywords": "React.js, Web Components, Design System",
+          "logo": "https://station-frankfurt.de/wp-content/uploads/2016/02/cobi_bike.png",
+          "startDate": "October 2021",
+          "title": "Frontend Developer"
         },
         {
-          "title": "Software Engineer",
-          "company": "Natural Coding",
-          "startDate": "February 2020",
-          "endDate": "September 2021",
-          "duration": "1 year 8 months",
           "bullets": [
             "Developed full-stack applications using modern web technologies",
             "Implemented both frontend and backend solutions for client projects",
@@ -163,15 +149,14 @@
             "Participated in code reviews and technical discussions",
             "Contributed to project planning and technical architecture decisions"
           ],
-          "keywords": "Full Stack Development"
+          "company": "Natural Coding",
+          "duration": "1 year 8 months",
+          "endDate": "September 2021",
+          "keywords": "Full Stack Development",
+          "startDate": "February 2020",
+          "title": "Software Engineer"
         },
         {
-          "title": "Senior Programme Manager",
-          "company": "Relyon IT Services Sp. z o.o. Spółka Komandytowa",
-          "logo": "https://rits.center/wp-content/uploads/2024/03/transparent_logo-kolor-mini.png",
-          "startDate": "March 2019",
-          "endDate": "February 2020",
-          "duration": "1 year",
           "bullets": [
             "Led program management initiatives for IT services and solutions",
             "Managed cross-functional teams and stakeholder relationships",
@@ -180,15 +165,15 @@
             "Coordinated with clients and internal teams on project requirements",
             "Monitored program performance and implemented improvement strategies"
           ],
-          "keywords": "Program Management, Team Leadership, IT Services, Business Analysis"
+          "company": "Relyon IT Services Sp. z o.o. Spółka Komandytowa",
+          "duration": "1 year",
+          "endDate": "February 2020",
+          "keywords": "Program Management, Team Leadership, IT Services, Business Analysis",
+          "logo": "https://rits.center/wp-content/uploads/2024/03/transparent_logo-kolor-mini.png",
+          "startDate": "March 2019",
+          "title": "Senior Programme Manager"
         },
         {
-          "title": "International Project Manager",
-          "company": "Relyon IT Services Sp. z o.o. Spółka Komandytowa",
-          "logo": "https://rits.center/wp-content/uploads/2024/03/transparent_logo-kolor-mini.png",
-          "startDate": "December 2018",
-          "endDate": "February 2019",
-          "duration": "3 months",
           "bullets": [
             "Managed international projects across multiple regions and time zones",
             "Coordinated with international teams and stakeholders",
@@ -197,15 +182,15 @@
             "Developed project documentation and reporting for international stakeholders",
             "Implemented project management best practices for international projects"
           ],
-          "keywords": "International Project Management, Team Leadership, Business Analysis"
+          "company": "Relyon IT Services Sp. z o.o. Spółka Komandytowa",
+          "duration": "3 months",
+          "endDate": "February 2019",
+          "keywords": "International Project Management, Team Leadership, Business Analysis",
+          "logo": "https://rits.center/wp-content/uploads/2024/03/transparent_logo-kolor-mini.png",
+          "startDate": "December 2018",
+          "title": "International Project Manager"
         },
         {
-          "title": "Software Engineer",
-          "company": "Jamf",
-          "logo": "https://resources.jamf.com/images/logos/Jamf-color.png",
-          "startDate": "February 2017",
-          "endDate": "November 2018",
-          "duration": "1 year 10 months",
           "bullets": [
             "Developed software solutions for device management and security",
             "Collaborated with development teams on feature implementation",
@@ -214,15 +199,15 @@
             "Maintained and optimized existing software systems",
             "Worked with cross-functional teams on product development"
           ],
-          "keywords": "Java, Device Management, Team Collaboration"
+          "company": "Jamf",
+          "duration": "1 year 10 months",
+          "endDate": "November 2018",
+          "keywords": "Java, Device Management, Team Collaboration",
+          "logo": "https://resources.jamf.com/images/logos/Jamf-color.png",
+          "startDate": "February 2017",
+          "title": "Software Engineer"
         },
         {
-          "title": "Java Developer",
-          "company": "ING Bank Śląski",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ING_Group_N.V._Logo.svg/1280px-ING_Group_N.V._Logo.svg.png",
-          "startDate": "September 2016",
-          "endDate": "January 2017",
-          "duration": "5 months",
           "bullets": [
             "Developed Java applications for banking systems and services",
             "Collaborated with development teams on banking software solutions",
@@ -231,15 +216,15 @@
             "Worked with banking-specific technologies and frameworks",
             "Ensured compliance with banking regulations and security standards"
           ],
-          "keywords": "Java, Database, Business"
+          "company": "ING Bank Śląski",
+          "duration": "5 months",
+          "endDate": "January 2017",
+          "keywords": "Java, Database, Business",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ING_Group_N.V._Logo.svg/1280px-ING_Group_N.V._Logo.svg.png",
+          "startDate": "September 2016",
+          "title": "Java Developer"
         },
         {
-          "title": "Test Automation Developer",
-          "company": "ING Bank Śląski",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ING_Group_N.V._Logo.svg/1280px-ING_Group_N.V._Logo.svg.png",
-          "startDate": "August 2015",
-          "endDate": "August 2016",
-          "duration": "1 year 1 month",
           "bullets": [
             "Created unit, performance and automated tests in Java",
             "Designed new internal technologies for testing purposes using XML data format, ISO messages and encrypted data",
@@ -248,15 +233,15 @@
             "Developed test frameworks and automation tools",
             "Collaborated with development teams on quality assurance processes"
           ],
-          "keywords": "Test Automation, Quality Assurance, Java, XML, ISO Messages"
+          "company": "ING Bank Śląski",
+          "duration": "1 year 1 month",
+          "endDate": "August 2016",
+          "keywords": "Test Automation, Quality Assurance, Java, XML, ISO Messages",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ING_Group_N.V._Logo.svg/1280px-ING_Group_N.V._Logo.svg.png",
+          "startDate": "August 2015",
+          "title": "Test Automation Developer"
         },
         {
-          "title": "Experienced Test Developer",
-          "company": "PERFORM",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Perform_Group.png",
-          "startDate": "March 2015",
-          "endDate": "July 2015",
-          "duration": "5 months",
           "bullets": [
             "Designed fast and reliable performance tests for various applications",
             "Prepared Java and Python training materials and conducted training sessions",
@@ -265,15 +250,15 @@
             "Developed performance testing frameworks and methodologies",
             "Collaborated with development teams on quality improvement initiatives"
           ],
-          "keywords": "Performance Testing, Training, Coaching, Java, Python"
+          "company": "PERFORM",
+          "duration": "5 months",
+          "endDate": "July 2015",
+          "keywords": "Performance Testing, Training, Coaching, Java, Python",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Perform_Group.png",
+          "startDate": "March 2015",
+          "title": "Experienced Test Developer"
         },
         {
-          "title": "Junior Test Developer",
-          "company": "PERFORM",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Perform_Group.png",
-          "startDate": "September 2014",
-          "endDate": "February 2015",
-          "duration": "6 months",
           "bullets": [
             "Performed automated testing for various software applications",
             "Conducted manual testing to ensure software quality",
@@ -282,15 +267,15 @@
             "Collaborated with development teams on testing strategies",
             "Maintained and updated test documentation and procedures"
           ],
-          "keywords": "Automated Testing, Manual Testing, Coaching"
+          "company": "PERFORM",
+          "duration": "6 months",
+          "endDate": "February 2015",
+          "keywords": "Automated Testing, Manual Testing, Coaching",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Perform_Group.png",
+          "startDate": "September 2014",
+          "title": "Junior Test Developer"
         },
         {
-          "title": "Deputy Customer Service Manager",
-          "company": "LIBRUS Sp. z o.o.",
-          "logo": "https://sp182.edu.pl/wp-content/uploads/2020/12/libru.png",
-          "startDate": "April 2008",
-          "endDate": "August 2014",
-          "duration": "6 years 5 months",
           "bullets": [
             "Managed customer service teams and operations",
             "Performed manual testing for software quality assurance",
@@ -299,107 +284,125 @@
             "Developed and implemented customer service procedures and policies",
             "Coordinated with other departments to resolve customer issues"
           ],
-          "keywords": "Customer Service, People Management, Quality Assurance"
+          "company": "LIBRUS Sp. z o.o.",
+          "duration": "6 years 5 months",
+          "endDate": "August 2014",
+          "keywords": "Customer Service, People Management, Quality Assurance",
+          "logo": "https://sp182.edu.pl/wp-content/uploads/2020/12/libru.png",
+          "startDate": "April 2008",
+          "title": "Deputy Customer Service Manager"
         }
-      ]
+      ],
+      "icon": "IconBriefcase2Filled",
+      "title": "Experience"
     },
     {
+      "anchor": "timeline",
       "description": "Career progression and timeline of professional roles and responsibilities.",
       "icon": "IconChartAreaLineFilled",
-      "title": "Career Timeline",
-      "anchor": "timeline",
       "timeline": {
-        "title": "CAREER TIMELINE",
-        "startYear": 2008,
         "endYear": 2025,
         "roles": [
           {
-            "name": "Leadership & Management",
             "color": "#ef4444",
-            "totalDuration": "current",
+            "name": "Leadership & Management",
             "periods": [
               {
-                "start": "2024-04",
+                "duration": "current",
                 "end": "current",
-                "duration": "current"
+                "start": "2024-04"
               },
               {
-                "start": "2018-12",
+                "duration": "1y 3m",
                 "end": "2020-02",
-                "duration": "1y 3m"
+                "start": "2018-12"
               },
               {
-                "start": "2011-06",
+                "duration": "3y 2m",
                 "end": "2014-08",
-                "duration": "3y 2m"
+                "start": "2011-06"
               }
-            ]
+            ],
+            "totalDuration": "current"
           },
           {
-            "name": "Frontend Development",
             "color": "#f97316",
-            "totalDuration": "current",
+            "name": "Frontend Development",
             "periods": [
               {
-                "start": "2021-10",
+                "duration": "current",
                 "end": "current",
-                "duration": "current"
+                "start": "2021-10"
               }
-            ]
+            ],
+            "totalDuration": "current"
           },
           {
-            "name": "Software Engineering",
             "color": "#22c55e",
-            "totalDuration": "3y 3m",
+            "name": "Software Engineering",
             "periods": [
               {
-                "start": "2020-02",
+                "duration": "1y 8m",
                 "end": "2021-09",
-                "duration": "1y 8m"
+                "start": "2020-02"
               },
               {
-                "start": "2016-09",
+                "duration": "2y 2m",
                 "end": "2018-11",
-                "duration": "2y 2m"
+                "start": "2016-09"
               }
-            ]
+            ],
+            "totalDuration": "3y 3m"
           },
           {
-            "name": "Test Automation",
             "color": "#06b6d4",
-            "totalDuration": "1y 11m",
+            "name": "Test Automation",
             "periods": [
               {
-                "start": "2014-09",
+                "duration": "1y 11m",
                 "end": "2016-08",
-                "duration": "1y 11m"
+                "start": "2014-09"
               }
-            ]
+            ],
+            "totalDuration": "1y 11m"
           },
           {
-            "name": "Customer Service Management",
             "color": "#8b5cf6",
-            "totalDuration": "6y 5m",
+            "name": "Customer Service Management",
             "periods": [
               {
-                "start": "2008-04",
+                "duration": "6y 5m",
                 "end": "2014-08",
-                "duration": "6y 5m"
+                "start": "2008-04"
               }
-            ]
+            ],
+            "totalDuration": "6y 5m"
           }
-        ]
-      }
+        ],
+        "startYear": 2008,
+        "title": "CAREER TIMELINE"
+      },
+      "title": "Career Timeline"
     },
     {
+      "anchor": "skills",
       "description": "Technical skills and proficiency levels in programming languages, development tools and frameworks.",
       "icon": "IconCarambolaFilled",
-      "title": "Technical Skills",
-      "anchor": "skills",
       "skills": {
         "categories": [
           {
-            "name": "Languages",
+            "additionalSkills": [
+              "PHP",
+              "C++",
+              "Visual Basic",
+              "Kotlin",
+              "Batch",
+              "Bash",
+              "PowerShell",
+              "SQL",
+              "NoSQL"
+            ],
+            "additionalSkillsCut": 10,
             "mainSkills": [
               {
                 "name": "JavaScript",
@@ -430,21 +433,30 @@
                 "rating": 2
               }
             ],
-            "additionalSkills": [
-              "PHP",
-              "C++",
-              "Visual Basic",
-              "Kotlin",
-              "Batch",
-              "Bash",
-              "PowerShell",
-              "SQL",
-              "NoSQL"
-            ],
-            "additionalSkillsCut": 10
+            "name": "Languages"
           },
           {
-            "name": "Tools",
+            "additionalSkills": [
+              "ChatGPT",
+              "Google Gemini",
+              "Claude",
+              "Postman",
+              "Fiddler",
+              "Swagger",
+              "Jenkins",
+              "TeamCity",
+              "SonarQube",
+              "GitLab",
+              "React DevTools",
+              "Office 365",
+              "Power BI",
+              "Microsoft Teams",
+              "Zoom",
+              "Slack",
+              "Fossa",
+              "Artifactory"
+            ],
+            "additionalSkillsCut": 15,
             "mainSkills": [
               {
                 "name": "Git",
@@ -483,30 +495,15 @@
                 "rating": 2
               }
             ],
-            "additionalSkills": [
-              "ChatGPT",
-              "Google Gemini",
-              "Claude",
-              "Postman",
-              "Fiddler",
-              "Swagger",
-              "Jenkins",
-              "TeamCity",
-              "SonarQube",
-              "GitLab",
-              "React DevTools",
-              "Office 365",
-              "Power BI",
-              "Microsoft Teams",
-              "Zoom",
-              "Slack",
-              "Fossa",
-              "Artifactory"
-            ],
-            "additionalSkillsCut": 15
+            "name": "Tools"
           },
           {
-            "name": "Frameworks",
+            "additionalSkills": [
+              "Tanstack",
+              "Vue.js",
+              "Angular"
+            ],
+            "additionalSkillsCut": 10,
             "mainSkills": [
               {
                 "name": "React",
@@ -521,115 +518,106 @@
                 "rating": 4
               }
             ],
-            "additionalSkills": [
-              "Tanstack",
-              "Vue.js",
-              "Angular"
-            ],
-            "additionalSkillsCut": 10
+            "name": "Frameworks"
           }
         ]
-      }
+      },
+      "title": "Technical Skills"
     },
     {
+      "anchor": "languages",
       "description": "Language proficiency levels and communication skills in different languages.",
       "icon": "IconMoodHappyFilled",
-      "title": "Language Proficiency",
-      "anchor": "languages",
       "languages": [
         {
-          "name": "Polish",
+          "description": "Fluent in speaking, writing, and technical communication",
           "level": "Native",
-          "proficiency": 5,
-          "description": "Fluent in speaking, writing, and technical communication"
+          "name": "Polish",
+          "proficiency": 5
         },
         {
-          "name": "English",
+          "description": "Professional working proficiency in business and technical contexts",
           "level": "Advanced",
-          "proficiency": 4,
-          "description": "Professional working proficiency in business and technical contexts"
+          "name": "English",
+          "proficiency": 4
         },
         {
-          "name": "German",
+          "description": "Basic understanding and simple conversations",
           "level": "Basic",
-          "proficiency": 2,
-          "description": "Basic understanding and simple conversations"
+          "name": "German",
+          "proficiency": 2
         }
-      ]
+      ],
+      "title": "Language Proficiency"
     },
     {
-      "description": "Academic background and educational achievements with degrees and specializations.",
-      "icon": "IconBookFilled",
-      "title": "Education",
       "anchor": "education",
+      "description": "Academic background and educational achievements with degrees and specializations.",
       "education": [
         {
           "degree": "Postgraduate Studies",
-          "university": "AGH UNIVERSITY OF SCIENCE AND TECHNOLOGY",
-          "startDate": "2015",
-          "endDate": "2016",
           "duration": "1 year",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Znak_graficzny_AGH.svg/1200px-Znak_graficzny_AGH.svg.png",
+          "endDate": "2016",
           "entries": [
             {
               "label": "Specjalization",
               "value": "IT Project Management"
             }
-          ]
+          ],
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Znak_graficzny_AGH.svg/1200px-Znak_graficzny_AGH.svg.png",
+          "startDate": "2015",
+          "university": "AGH UNIVERSITY OF SCIENCE AND TECHNOLOGY"
         },
         {
           "degree": "Master of Science",
-          "university": "UNIVERSITY OF SILESIA",
-          "startDate": "2008",
-          "endDate": "2010",
           "duration": "2 years",
-          "logo": "https://usk.edu.pl/static/assets/images/default_logo.png",
-          "scholarship": "Scholarship for the best students",
+          "endDate": "2010",
           "entries": [
             {
               "label": "Specialization",
               "value": "Computer Science"
             }
-          ]
+          ],
+          "logo": "https://usk.edu.pl/static/assets/images/default_logo.png",
+          "scholarship": "Scholarship for the best students",
+          "startDate": "2008",
+          "university": "UNIVERSITY OF SILESIA"
         },
         {
           "degree": "Bachelor's Degree",
-          "university": "WYŻSZA SZKOŁA TECHNOLOGII INFORMATYCZNYCH",
-          "startDate": "2004",
-          "endDate": "2008",
           "duration": "4 years",
-          "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGjsyNE6wDpgg/company-logo_200_200/B4DZfutE.uGsAM-/0/1752056484214/wysza_szkoa_technologii_informatycznych_w_katowicach_logo?e=1757548800&v=beta&t=tMdNh25DbYMVTaKiivoqz-DTZT1_e_UOkBjW4WldGKQ",
-          "scholarship": "Scholarship for the best students",
+          "endDate": "2008",
           "entries": [
             {
               "label": "Specialization",
               "value": "Computer Science"
             }
-          ]
+          ],
+          "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGjsyNE6wDpgg/company-logo_200_200/B4DZfutE.uGsAM-/0/1752056484214/wysza_szkoa_technologii_informatycznych_w_katowicach_logo?e=1757548800&v=beta&t=tMdNh25DbYMVTaKiivoqz-DTZT1_e_UOkBjW4WldGKQ",
+          "scholarship": "Scholarship for the best students",
+          "startDate": "2004",
+          "university": "WYŻSZA SZKOŁA TECHNOLOGII INFORMATYCZNYCH"
         }
-      ]
+      ],
+      "icon": "IconBookFilled",
+      "title": "Education"
     },
     {
-      "description": "Professional certifications and achievements demonstrating expertise and continuous learning.",
-      "icon": "IconBadgeFilled",
-      "title": "Certifications",
       "anchor": "certifications",
       "certifications": [
         {
-          "title": "Java and JVM",
           "date": "October 2018",
-          "logo": "https://avatars.githubusercontent.com/u/1414067?s=280&v=4",
           "entries": [
             {
               "label": "Issuer",
               "value": "Bottega IT Minds"
             }
-          ]
+          ],
+          "logo": "https://avatars.githubusercontent.com/u/1414067?s=280&v=4",
+          "title": "Java and JVM"
         },
         {
-          "title": "Spring Framework 5: Beginner to Guru",
           "date": "October 2018",
-          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
@@ -640,34 +628,34 @@
               "value": "UC-TSPJH5MT"
             }
           ],
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "title": "Spring Framework 5: Beginner to Guru",
           "verifyLink": "https://www.udemy.com/certificate/UC-TSPJH5MT/"
         },
         {
-          "title": "DDD",
           "date": "October 2017",
-          "logo": "https://avatars.githubusercontent.com/u/1414067?s=280&v=4",
           "entries": [
             {
               "label": "Issuer",
               "value": "Bottega IT Minds"
             }
-          ]
+          ],
+          "logo": "https://avatars.githubusercontent.com/u/1414067?s=280&v=4",
+          "title": "DDD"
         },
         {
-          "title": "Attacking and protecting webapps",
           "date": "April 2017",
-          "logo": "https://bilety.niebezpiecznik.pl/assets/images/nbzp-logo.png",
           "entries": [
             {
               "label": "Issuer",
               "value": "Niebezpiecznik.pl"
             }
-          ]
+          ],
+          "logo": "https://bilety.niebezpiecznik.pl/assets/images/nbzp-logo.png",
+          "title": "Attacking and protecting webapps"
         },
         {
-          "title": "AngularJS for Beginners",
           "date": "August 2016",
-          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
@@ -678,12 +666,12 @@
               "value": "UC-P1FUK1XV"
             }
           ],
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "title": "AngularJS for Beginners",
           "verifyLink": "https://www.udemy.com/certificate/UC-P1FUK1XV/"
         },
         {
-          "title": "Javascript Essentials",
           "date": "August 2016",
-          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
@@ -694,12 +682,12 @@
               "value": "UC-9EYJJ2E7"
             }
           ],
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "title": "Javascript Essentials",
           "verifyLink": "https://www.udemy.com/certificate/UC-9EYJJ2E7/"
         },
         {
-          "title": "Java Design Patterns",
           "date": "May 2016",
-          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
@@ -710,12 +698,12 @@
               "value": "UC-WEXY5KC7"
             }
           ],
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "title": "Java Design Patterns",
           "verifyLink": "https://www.udemy.com/certificate/UC-WEXY5KC7/"
         },
         {
-          "title": "Java Multithreading",
           "date": "May 2016",
-          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
@@ -726,12 +714,12 @@
               "value": "UC-9DWVDICJ"
             }
           ],
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "title": "Java Multithreading",
           "verifyLink": "https://www.udemy.com/certificate/UC-9DWVDICJ/"
         },
         {
-          "title": "Learn HTML5 from W3C",
           "date": "July 2015",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlscAvljO6d6IJo8aanhISXBx1g8MxjmJF7g&s",
           "entries": [
             {
               "label": "Issuer",
@@ -742,12 +730,12 @@
               "value": "45162a080cbc4cf2ad71e2bfba97c2b7"
             }
           ],
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlscAvljO6d6IJo8aanhISXBx1g8MxjmJF7g&s",
+          "title": "Learn HTML5 from W3C",
           "verifyLink": "https://s3.amazonaws.com/verify.edx.org/downloads/1352aba2559046f99c4b3eef7be83185/Certificate.pdf"
         },
         {
-          "title": "Java Tutorial for Complete Begginers",
           "date": "June 2015",
-          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
@@ -758,12 +746,12 @@
               "value": "UC-FQ557FII"
             }
           ],
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "title": "Java Tutorial for Complete Begginers",
           "verifyLink": "https://www.udemy.com/certificate/UC-FQ557FII/"
         },
         {
-          "title": "Introduction to Bootstrap",
           "date": "May 2015",
-          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
           "entries": [
             {
               "label": "Issuer",
@@ -774,12 +762,12 @@
               "value": "8eae9a89a2ee462992607eb36668419f"
             }
           ],
+          "logo": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+          "title": "Introduction to Bootstrap",
           "verifyLink": "https://s3.amazonaws.com/verify.edx.org/downloads/c5c0a9f3feae4ca8bcf0768d27b727c2/Certificate.pdf"
         },
         {
-          "title": "MongoDB for Python Developers",
           "date": "March 2015",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Mongodb.png",
           "entries": [
             {
               "label": "Issuer",
@@ -790,20 +778,25 @@
               "value": "32d18ecd194d4c75babf10143bcab159"
             }
           ],
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Mongodb.png",
+          "title": "MongoDB for Python Developers",
           "verifyLink": "http://education.mongodb.com/downloads/certificates/32d18ecd194d4c75babf10143bcab159/Certificate.pdf"
         },
         {
-          "title": "An Introduction to Interactive Programming in Python",
           "date": "November 2014",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Coursera_logo_%282020%29.svg/2560px-Coursera_logo_%282020%29.svg.png",
           "entries": [
             {
               "label": "Issuer",
               "value": "Coursera"
             }
-          ]
+          ],
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Coursera_logo_%282020%29.svg/2560px-Coursera_logo_%282020%29.svg.png",
+          "title": "An Introduction to Interactive Programming in Python"
         }
-      ]
+      ],
+      "description": "Professional certifications and achievements demonstrating expertise and continuous learning.",
+      "icon": "IconBadgeFilled",
+      "title": "Certifications"
     }
   ]
 }

@@ -2,12 +2,12 @@
 	import { sections } from '$lib/cv.json';
 	import AppCVCertifications from './AppCVCertifications.svelte';
 	import AppCVEducation from './AppCVEducation.svelte';
+	import AppCVExperience from './AppCVExperience.svelte';
 	import AppCVLanguages from './AppCVLanguages.svelte';
-	import AppCVSectionItems from './AppCVSectionItems.svelte';
 	import AppCVSectionTitle from './AppCVSectionTitle.svelte';
 	import AppCVSkills from './AppCVSkills.svelte';
+	import AppCVSummary from './AppCVSummary.svelte';
 	import AppCVTimeline from './AppCVTimeline.svelte';
-	import AppCVExperience from './AppCVExperience.svelte';
 </script>
 
 <div class="flex flex-col gap-2 px-6">
@@ -26,8 +26,8 @@
 			<AppCVEducation education={section.education} />
 		{:else if section.certifications}
 			<AppCVCertifications certifications={section.certifications} />
-		{:else if section.items}
-			<AppCVSectionItems items={section.items} />
+		{:else if section.summary}
+			<AppCVSummary summary={section.summary} summaryIcon={section.summaryIcon} />
 		{/if}
 	{/each}
 </div>

@@ -26,7 +26,7 @@
 				<button onclick={() => scrollToSection(item.anchor)} aria-label={item.text}>
 					<AppCVSectionIcon
 						icon={item.icon}
-						additionalClass="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
+						class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
 					/>
 				</button>
 				<AppNavigationTooltip text={item.text} />
