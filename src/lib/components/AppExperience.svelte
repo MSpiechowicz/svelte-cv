@@ -20,7 +20,7 @@
 <div class="space-y-6">
 	{#each experience as item (item.title + item.company)}
 		<div
-			class="bg-background border border-border/30 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
+			class="bg-background border border-border rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
 		>
 			<div class="flex justify-between items-start mb-4">
 				<div class="flex-1">

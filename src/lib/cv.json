@@ -29,6 +29,11 @@
       "text": "Education",
       "icon": "IconBookFilled",
       "anchor": "education"
+    },
+    {
+      "text": "Certifications",
+      "icon": "IconBadgeFilled",
+      "anchor": "certifications"
     }
   ],
   "header": {
@@ -259,11 +264,56 @@
                 "start": "2020-10",
                 "end": "2021-12",
                 "duration": "1y 2m"
-              }
-            ]
-          }
-        ]
-      }
+                      }
+      ]
+    },
+    {
+      "description": "Professional certifications and achievements demonstrating expertise and continuous learning.",
+      "icon": "IconBadgeFilled",
+      "title": "Certifications",
+      "anchor": "certifications",
+      "certifications": [
+        {
+          "title": "Microsoft Azure Fundamentals",
+          "date": "September 2020",
+          "exam": "AZ-900",
+          "credentialId": "61DCE1861ED87325",
+          "certificationNumber": "3C89KD-7C4C5C",
+          "logo": "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+          "issuer": "Microsoft",
+          "verifyLink": "https://www.credly.com/badges/61dce1861ed87325"
+        },
+        {
+          "title": "Microsoft Office Specialist Master",
+          "date": "June 2013",
+          "exam": "Word Expert, Excel Expert, PowerPoint, Access, Outlook, OneNote, SharePoint, Office 365",
+          "credentialId": "wb2Wr-HaaY",
+          "logo": "https://images.credly.com/size/680x680/images/4c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+          "issuer": "Microsoft",
+          "verifyLink": "https://www.microsoft.com/en-us/learning/transcripts.aspx"
+        },
+        {
+          "title": "ISTQB Certified Tester Foundation Level",
+          "date": "April 2017",
+          "exam": "ISTQB CTFL",
+          "credentialId": "07307/FLCT/2017",
+          "logo": "https://images.credly.com/size/680x680/images/2c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+          "issuer": "ISTQB",
+          "verifyLink": "https://www.istqb.org/certifications/certified-tester-foundation-level"
+        },
+        {
+          "title": "EF Standard English Test – C2 Proficient",
+          "date": "August 2018",
+          "exam": "EF SET",
+          "credentialId": "wBMWws",
+          "logo": "https://images.credly.com/size/680x680/images/3c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+          "issuer": "EF Education First",
+          "verifyLink": "https://www.efset.org/cert/"
+        }
+      ]
+    }
+  ]
+}
     },
     {
       "description": "Technical skills and proficiency levels in programming languages and development tools.",
@@ -364,6 +414,51 @@
           "level": "Basic",
           "proficiency": 2,
           "description": "Basic understanding and simple conversations"
+        }
+      ]
+    },
+    {
+      "description": "Professional certifications and achievements demonstrating expertise and continuous learning.",
+      "icon": "IconBadgeFilled",
+      "title": "Certifications",
+      "anchor": "certifications",
+      "certifications": [
+        {
+          "title": "Microsoft Azure Fundamentals",
+          "date": "September 2020",
+          "exam": "AZ-900",
+          "credentialId": "61DCE1861ED87325",
+          "certificationNumber": "3C89KD-7C4C5C",
+          "logo": "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+          "issuer": "Microsoft",
+          "verifyLink": "https://www.credly.com/badges/61dce1861ed87325"
+        },
+        {
+          "title": "Microsoft Office Specialist Master",
+          "date": "June 2013",
+          "exam": "Word Expert, Excel Expert, PowerPoint, Access, Outlook, OneNote, SharePoint, Office 365",
+          "credentialId": "wb2Wr-HaaY",
+          "logo": "https://images.credly.com/size/680x680/images/4c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+          "issuer": "Microsoft",
+          "verifyLink": "https://www.microsoft.com/en-us/learning/transcripts.aspx"
+        },
+        {
+          "title": "ISTQB Certified Tester Foundation Level",
+          "date": "April 2017",
+          "exam": "ISTQB CTFL",
+          "credentialId": "07307/FLCT/2017",
+          "logo": "https://images.credly.com/size/680x680/images/2c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+          "issuer": "ISTQB",
+          "verifyLink": "https://www.istqb.org/certifications/certified-tester-foundation-level"
+        },
+        {
+          "title": "EF Standard English Test – C2 Proficient",
+          "date": "August 2018",
+          "exam": "EF SET",
+          "credentialId": "wBMWws",
+          "logo": "https://images.credly.com/size/680x680/images/3c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+          "issuer": "EF Education First",
+          "verifyLink": "https://www.efset.org/cert/"
         }
       ]
     }

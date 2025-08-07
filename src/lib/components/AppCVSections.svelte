@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { sections } from '$lib/cv.json';
+	import AppCertifications from './AppCertifications.svelte';
 	import AppCVLanguages from './AppCVLanguages.svelte';
 	import AppCVSectionItems from './AppCVSectionItems.svelte';
 	import AppCVSectionTitle from './AppCVSectionTitle.svelte';
@@ -20,6 +21,8 @@
 			<AppCVSkills skills={section.skills} />
 		{:else if section.languages}
 			<AppCVLanguages languages={section.languages} />
+		{:else if section.certifications}
+			<AppCertifications certifications={section.certifications} />
 		{:else if section.items}
 			<AppCVSectionItems items={section.items} />
 		{/if}
