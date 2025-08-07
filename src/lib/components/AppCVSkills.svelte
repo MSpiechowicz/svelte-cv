@@ -15,19 +15,21 @@
 
 				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
 					{#each category.mainSkills as skill (skill.name)}
-						<AppCVCard class="p-2">
-							<span class="text-sm font-medium text-text-primary">{skill.name}</span>
-							<div class="flex items-center gap-2">
-								<div class="flex items-center gap-1">
-									{#each Array.from({ length: 5 }, (_, index) => index) as index (index)}
-										{#if index < skill.rating}
-											<IconStarFilled class="w-4 h-4 text-accent" />
-										{:else}
-											<IconStar class="w-4 h-4 text-gray-300" />
-										{/if}
-									{/each}
+						<AppCVCard class="!p-4">
+							<div class="flex items-center justify-between">
+								<span class="text-sm font-medium text-text-primary">{skill.name}</span>
+								<div class="flex items-center gap-2">
+									<div class="flex items-center gap-1">
+										{#each Array.from({ length: 5 }, (_, index) => index) as index (index)}
+											{#if index < skill.rating}
+												<IconStarFilled class="w-4 h-4 text-accent" />
+											{:else}
+												<IconStar class="w-4 h-4 text-gray-300" />
+											{/if}
+										{/each}
+									</div>
+									<span class="text-xs text-text-secondary">{skill.rating}/5</span>
 								</div>
-								<span class="text-xs text-text-secondary">{skill.rating}/5</span>
 							</div>
 						</AppCVCard>
 					{/each}

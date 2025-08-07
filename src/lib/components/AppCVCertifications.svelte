@@ -17,7 +17,7 @@
 					{certification.date}
 				</p>
 			</div>
-			<div class="absolute top-6 right-6">
+			<div class="absolute top-6 right-6 hidden sm:block">
 				<img
 					src={certification.logo}
 					alt="{certification.issuer} logo"
