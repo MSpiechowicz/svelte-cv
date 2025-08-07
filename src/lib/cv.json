@@ -19,6 +19,16 @@
       "text": "Summary"
     },
     {
+      "anchor": "projects",
+      "icon": "IconFoldersFilled",
+      "text": "Projects"
+    },
+    {
+      "anchor": "skills",
+      "icon": "IconCarambolaFilled",
+      "text": "Skills"
+    },
+    {
       "anchor": "experience",
       "icon": "IconBriefcase2Filled",
       "text": "Experience"
@@ -29,11 +39,6 @@
       "text": "Timeline"
     },
     {
-      "anchor": "skills",
-      "icon": "IconCarambolaFilled",
-      "text": "Skills"
-    },
-    {
       "anchor": "languages",
       "icon": "IconMoodHappyFilled",
       "text": "Languages"
@@ -42,11 +47,6 @@
       "anchor": "education",
       "icon": "IconBookFilled",
       "text": "Education"
-    },
-    {
-      "anchor": "projects",
-      "icon": "IconFoldersFilled",
-      "text": "Projects"
     },
     {
       "anchor": "certifications",
@@ -69,6 +69,253 @@
       ],
       "summaryIcon": "IconArrowBigRightLineFilled",
       "title": "Summary"
+    },
+    {
+      "anchor": "projects",
+      "description": "Showcase of personal and professional projects demonstrating technical skills, problem-solving abilities, and innovative solutions.",
+      "icon": "IconFoldersFilled",
+      "projects": [
+        {
+          "demo": "https://track-things.com",
+          "description": "Simplify your tracking journey with a user-friendly platform that transforms your data into meaningful charts. No technical skills or spreadsheets required.",
+          "technologies": [
+            "SvelteKit",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite",
+            "Supabase"
+          ],
+          "title": "Track Things"
+        },
+        {
+          "demo": "https://mspiechowicz.github.io/flowoftime/",
+          "description": "This simple project shares only one purpose - to provide you with the the actual, real time information about the flow of time. We all have our limited time on earth as a human being, so each second matters. Make use of it. Do not waste your time.",
+          "github": "https://github.com/MSpiechowicz/flowoftime",
+          "technologies": [
+            "Svelte 5",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite"
+          ],
+          "title": "Flow of Time"
+        },
+        {
+          "demo": "https://mspiechowicz.github.io/estimate-electric-car-range/",
+          "description": "Estimate the range of your electric car based on the battery capacity and the driving style.",
+          "github": "https://github.com/MSpiechowicz/estimate-electric-car-range",
+          "technologies": [
+            "Svelte 5",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite"
+          ],
+          "title": "Estimate Electric Car Range"
+        },
+        {
+          "description": "My personal configuration for LazyVim, a minimalistic and efficient Neovim configuration.",
+          "github": "https://github.com/MSpiechowicz/lazyvim-config",
+          "technologies": [
+            "Neovim",
+            "LazyVim",
+            "Lua"
+          ],
+          "title": "LazyVim Config"
+        },
+        {
+          "demo": "https://mspiechowicz.com",
+          "description": "My personal blog built with SvelteKit, a minimalistic and efficient blog framework.",
+          "github": "https://github.com/MSpiechowicz/sveltekit-blog",
+          "technologies": [
+            "SvelteKit",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite"
+          ],
+          "title": "SvelteKit Blog"
+        },
+        {
+          "demo": "https://mspiechowicz.github.io/ai-input-generator/",
+          "description": "A brutalist-styled Svelte 5 application that transforms basic user requests into professional, comprehensive AI prompts. Select your project type, input your request, and get an enhanced prompt ready to use with any AI tool.",
+          "github": "https://github.com/MSpiechowicz/ai-input-generator",
+          "technologies": [
+            "Svelte 5",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite"
+          ],
+          "title": "AI Input Generator"
+        },
+        {
+          "demo": "https://mspiechowicz.github.io/svelte-cv/",
+          "description": "My personal CV built with SvelteKit, a minimalistic and efficient CV framework.",
+          "github": "https://github.com/MSpiechowicz/svelte-cv",
+          "technologies": [
+            "SvelteKit",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite"
+          ],
+          "title": "Svelte CV"
+        },
+        {
+          "demo": "https://annaspiechowicz.com",
+          "description": "This is a basic business card website that you can use as a template for your personal website. It is built using React and Vite.",
+          "github": "https://github.com/MSpiechowicz/business-card-style-website",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "SCSS",
+            "Vite"
+          ],
+          "title": "Business Card Style Website"
+        },
+        {
+          "description": "A collection of useful snippets for various programming languages and tools.",
+          "github": "https://github.com/MSpiechowicz/useful-snippets",
+          "title": "Useful Snippets"
+        }
+      ],
+      "title": "Projects"
+    },
+    {
+      "anchor": "skills",
+      "description": "Technical skills and proficiency levels in programming languages, development tools and frameworks.",
+      "icon": "IconCarambolaFilled",
+      "skills": {
+        "categories": [
+          {
+            "additionalSkills": [
+              "PHP",
+              "C++",
+              "Visual Basic",
+              "Kotlin",
+              "Batch",
+              "Bash",
+              "PowerShell",
+              "SQL",
+              "NoSQL"
+            ],
+            "additionalSkillsCut": 10,
+            "mainSkills": [
+              {
+                "name": "JavaScript",
+                "rating": 5
+              },
+              {
+                "name": "HTML",
+                "rating": 5
+              },
+              {
+                "name": "CSS",
+                "rating": 5
+              },
+              {
+                "name": "TypeScript",
+                "rating": 4
+              },
+              {
+                "name": "Java",
+                "rating": 3
+              },
+              {
+                "name": "Go",
+                "rating": 2
+              },
+              {
+                "name": "Python",
+                "rating": 2
+              }
+            ],
+            "name": "Languages"
+          },
+          {
+            "additionalSkills": [
+              "ChatGPT",
+              "Google Gemini",
+              "Claude",
+              "Postman",
+              "Fiddler",
+              "Swagger",
+              "Jenkins",
+              "TeamCity",
+              "SonarQube",
+              "GitLab",
+              "React DevTools",
+              "Office 365",
+              "Power BI",
+              "Microsoft Teams",
+              "Zoom",
+              "Slack",
+              "Fossa",
+              "Artifactory"
+            ],
+            "additionalSkillsCut": 15,
+            "mainSkills": [
+              {
+                "name": "Git",
+                "rating": 5
+              },
+              {
+                "name": "Cursor",
+                "rating": 5
+              },
+              {
+                "name": "VS Code",
+                "rating": 5
+              },
+              {
+                "name": "Docker",
+                "rating": 4
+              },
+              {
+                "name": "Jenkins",
+                "rating": 4
+              },
+              {
+                "name": "Jira",
+                "rating": 3
+              },
+              {
+                "name": "AWS",
+                "rating": 3
+              },
+              {
+                "name": "Kubernetes",
+                "rating": 3
+              },
+              {
+                "name": "Azure",
+                "rating": 2
+              }
+            ],
+            "name": "Tools"
+          },
+          {
+            "additionalSkills": [
+              "Tanstack",
+              "Vue.js",
+              "Angular"
+            ],
+            "additionalSkillsCut": 10,
+            "mainSkills": [
+              {
+                "name": "React",
+                "rating": 5
+              },
+              {
+                "name": "Svelte 5",
+                "rating": 4
+              },
+              {
+                "name": "Tailwind CSS",
+                "rating": 4
+              }
+            ],
+            "name": "Frameworks"
+          }
+        ]
+      },
+      "title": "Technical Skills"
     },
     {
       "anchor": "experience",
@@ -390,146 +637,6 @@
       "title": "Career Timeline"
     },
     {
-      "anchor": "skills",
-      "description": "Technical skills and proficiency levels in programming languages, development tools and frameworks.",
-      "icon": "IconCarambolaFilled",
-      "skills": {
-        "categories": [
-          {
-            "additionalSkills": [
-              "PHP",
-              "C++",
-              "Visual Basic",
-              "Kotlin",
-              "Batch",
-              "Bash",
-              "PowerShell",
-              "SQL",
-              "NoSQL"
-            ],
-            "additionalSkillsCut": 10,
-            "mainSkills": [
-              {
-                "name": "JavaScript",
-                "rating": 5
-              },
-              {
-                "name": "HTML",
-                "rating": 5
-              },
-              {
-                "name": "CSS",
-                "rating": 5
-              },
-              {
-                "name": "TypeScript",
-                "rating": 4
-              },
-              {
-                "name": "Java",
-                "rating": 3
-              },
-              {
-                "name": "Go",
-                "rating": 2
-              },
-              {
-                "name": "Python",
-                "rating": 2
-              }
-            ],
-            "name": "Languages"
-          },
-          {
-            "additionalSkills": [
-              "ChatGPT",
-              "Google Gemini",
-              "Claude",
-              "Postman",
-              "Fiddler",
-              "Swagger",
-              "Jenkins",
-              "TeamCity",
-              "SonarQube",
-              "GitLab",
-              "React DevTools",
-              "Office 365",
-              "Power BI",
-              "Microsoft Teams",
-              "Zoom",
-              "Slack",
-              "Fossa",
-              "Artifactory"
-            ],
-            "additionalSkillsCut": 15,
-            "mainSkills": [
-              {
-                "name": "Git",
-                "rating": 5
-              },
-              {
-                "name": "Cursor",
-                "rating": 5
-              },
-              {
-                "name": "VS Code",
-                "rating": 5
-              },
-              {
-                "name": "Docker",
-                "rating": 4
-              },
-              {
-                "name": "Jenkins",
-                "rating": 4
-              },
-              {
-                "name": "Jira",
-                "rating": 3
-              },
-              {
-                "name": "AWS",
-                "rating": 3
-              },
-              {
-                "name": "Kubernetes",
-                "rating": 3
-              },
-              {
-                "name": "Azure",
-                "rating": 2
-              }
-            ],
-            "name": "Tools"
-          },
-          {
-            "additionalSkills": [
-              "Tanstack",
-              "Vue.js",
-              "Angular"
-            ],
-            "additionalSkillsCut": 10,
-            "mainSkills": [
-              {
-                "name": "React",
-                "rating": 5
-              },
-              {
-                "name": "Svelte 5",
-                "rating": 4
-              },
-              {
-                "name": "Tailwind CSS",
-                "rating": 4
-              }
-            ],
-            "name": "Frameworks"
-          }
-        ]
-      },
-      "title": "Technical Skills"
-    },
-    {
       "anchor": "languages",
       "description": "Language proficiency levels and communication skills in different languages.",
       "icon": "IconMoodHappyFilled",
@@ -606,73 +713,6 @@
       ],
       "icon": "IconBookFilled",
       "title": "Education"
-    },
-    {
-      "anchor": "projects",
-      "description": "Showcase of personal and professional projects demonstrating technical skills, problem-solving abilities, and innovative solutions.",
-      "icon": "IconFoldersFilled",
-      "projects": [
-        {
-          "title": "Track Things",
-          "description": "Simplify your tracking journey with a user-friendly platform that transforms your data into meaningful charts. No technical skills or spreadsheets required.",
-          "technologies": ["SvelteKit", "TypeScript", "Tailwind CSS", "Vite", "Supabase"],
-          "demo": "https://track-things.com"
-        },
-        {
-          "title": "Flow of Time",
-          "description": "This simple project shares only one purpose - to provide you with the the actual, real time information about the flow of time. We all have our limited time on earth as a human being, so each second matters. Make use of it. Do not waste your time.",
-          "technologies": ["Svelte 5", "TypeScript", "Tailwind CSS", "Vite"],
-          "github": "https://github.com/MSpiechowicz/flowoftime",
-          "demo": "https://mspiechowicz.github.io/flowoftime/"
-        },
-        {
-          "title": "Estimate Electric Car Range",
-          "description": "Estimate the range of your electric car based on the battery capacity and the driving style.",
-          "technologies": ["Svelte 5", "TypeScript", "Tailwind CSS", "Vite"],
-          "github": "https://github.com/MSpiechowicz/estimate-electric-car-range",
-          "demo": "https://mspiechowicz.github.io/estimate-electric-car-range/"
-        },
-        {
-          "title": "LazyVim Config",
-          "description": "My personal configuration for LazyVim, a minimalistic and efficient Neovim configuration.",
-          "technologies": ["Neovim", "LazyVim", "Lua"],
-          "github": "https://github.com/MSpiechowicz/lazyvim-config"
-        },
-        {
-          "title": "SvelteKit Blog",
-          "description": "My personal blog built with SvelteKit, a minimalistic and efficient blog framework.",
-          "technologies": ["SvelteKit", "TypeScript", "Tailwind CSS", "Vite"],
-          "github": "https://github.com/MSpiechowicz/sveltekit-blog",
-          "demo": "https://mspiechowicz.com"
-        },
-        {
-          "title": "AI Input Generator",
-          "description": "A brutalist-styled Svelte 5 application that transforms basic user requests into professional, comprehensive AI prompts. Select your project type, input your request, and get an enhanced prompt ready to use with any AI tool.",
-          "technologies": ["Svelte 5", "TypeScript", "Tailwind CSS", "Vite"],
-          "github": "https://github.com/MSpiechowicz/ai-input-generator",
-          "demo": "https://mspiechowicz.github.io/ai-input-generator/"
-        },
-        {
-          "title": "Svelte CV",
-          "description": "My personal CV built with SvelteKit, a minimalistic and efficient CV framework.",
-          "technologies": ["SvelteKit", "TypeScript", "Tailwind CSS", "Vite"],
-          "github": "https://github.com/MSpiechowicz/svelte-cv",
-          "demo": "https://mspiechowicz.github.io/svelte-cv/"
-        },
-        {
-          "title": "Business Card Style Website",
-          "description": "This is a basic business card website that you can use as a template for your personal website. It is built using React and Vite.",
-          "technologies": ["React", "TypeScript", "SCSS", "Vite"],
-          "github": "https://github.com/MSpiechowicz/business-card-style-website",
-          "demo": "https://annaspiechowicz.com"
-        },
-        {
-          "title": "Useful Snippets",
-          "description": "A collection of useful snippets for various programming languages and tools.",
-          "github": "https://github.com/MSpiechowicz/useful-snippets"
-        }
-      ],
-      "title": "Projects"
     },
     {
       "anchor": "certifications",
