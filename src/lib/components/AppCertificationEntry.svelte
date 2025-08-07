@@ -3,7 +3,7 @@
 </script>
 
 {#if value}
-	<div class="flex items-center gap-1">
+	<div class="flex items-start gap-1.5">
 		<span class="font-bold">{label}:</span>
 		{#if href}
 			<a

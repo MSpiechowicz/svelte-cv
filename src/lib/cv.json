@@ -264,56 +264,56 @@
                 "start": "2020-10",
                 "end": "2021-12",
                 "duration": "1y 2m"
-                      }
-      ]
-    },
-    {
-      "description": "Professional certifications and achievements demonstrating expertise and continuous learning.",
-      "icon": "IconBadgeFilled",
-      "title": "Certifications",
-      "anchor": "certifications",
-      "certifications": [
-        {
-          "title": "Microsoft Azure Fundamentals",
-          "date": "September 2020",
-          "exam": "AZ-900",
-          "credentialId": "61DCE1861ED87325",
-          "certificationNumber": "3C89KD-7C4C5C",
-          "logo": "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
-          "issuer": "Microsoft",
-          "verifyLink": "https://www.credly.com/badges/61dce1861ed87325"
-        },
-        {
-          "title": "Microsoft Office Specialist Master",
-          "date": "June 2013",
-          "exam": "Word Expert, Excel Expert, PowerPoint, Access, Outlook, OneNote, SharePoint, Office 365",
-          "credentialId": "wb2Wr-HaaY",
-          "logo": "https://images.credly.com/size/680x680/images/4c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
-          "issuer": "Microsoft",
-          "verifyLink": "https://www.microsoft.com/en-us/learning/transcripts.aspx"
-        },
-        {
-          "title": "ISTQB Certified Tester Foundation Level",
-          "date": "April 2017",
-          "exam": "ISTQB CTFL",
-          "credentialId": "07307/FLCT/2017",
-          "logo": "https://images.credly.com/size/680x680/images/2c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
-          "issuer": "ISTQB",
-          "verifyLink": "https://www.istqb.org/certifications/certified-tester-foundation-level"
-        },
-        {
-          "title": "EF Standard English Test – C2 Proficient",
-          "date": "August 2018",
-          "exam": "EF SET",
-          "credentialId": "wBMWws",
-          "logo": "https://images.credly.com/size/680x680/images/3c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
-          "issuer": "EF Education First",
-          "verifyLink": "https://www.efset.org/cert/"
-        }
-      ]
-    }
-  ]
-}
+              }
+            ]
+          },
+          {
+            "description": "Professional certifications and achievements demonstrating expertise and continuous learning.",
+            "icon": "IconBadgeFilled",
+            "title": "Certifications",
+            "anchor": "certifications",
+            "certifications": [
+              {
+                "title": "Microsoft Azure Fundamentals",
+                "date": "September 2020",
+                "exam": "AZ-900",
+                "credentialId": "61DCE1861ED87325",
+                "certificationNumber": "3C89KD-7C4C5C",
+                "logo": "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+                "issuer": "Microsoft",
+                "verifyLink": "https://www.credly.com/badges/61dce1861ed87325"
+              },
+              {
+                "title": "Microsoft Office Specialist Master",
+                "date": "June 2013",
+                "exam": "Word Expert, Excel Expert, PowerPoint, Access, Outlook, OneNote, SharePoint, Office 365",
+                "credentialId": "wb2Wr-HaaY",
+                "logo": "https://images.credly.com/size/680x680/images/4c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+                "issuer": "Microsoft",
+                "verifyLink": "https://www.microsoft.com/en-us/learning/transcripts.aspx"
+              },
+              {
+                "title": "ISTQB Certified Tester Foundation Level",
+                "date": "April 2017",
+                "exam": "ISTQB CTFL",
+                "credentialId": "07307/FLCT/2017",
+                "logo": "https://images.credly.com/size/680x680/images/2c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+                "issuer": "ISTQB",
+                "verifyLink": "https://www.istqb.org/certifications/certified-tester-foundation-level"
+              },
+              {
+                "title": "EF Standard English Test – C2 Proficient",
+                "date": "August 2018",
+                "exam": "EF SET",
+                "credentialId": "wBMWws",
+                "logo": "https://images.credly.com/size/680x680/images/3c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
+                "issuer": "EF Education First",
+                "verifyLink": "https://www.efset.org/cert/"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Technical skills and proficiency levels in programming languages and development tools.",
@@ -339,8 +339,21 @@
               }
             ],
             "additionalSkills": [
-              "TypeScript", "Java", "PHP", "C++", "Visual Basic", "Kotlin", "Scala",
-              "Tcl+Expect", "Batch", "Bash", "PowerShell", "RegExp", "SQL", "HTML", "CSS"
+              "TypeScript",
+              "Java",
+              "PHP",
+              "C++",
+              "Visual Basic",
+              "Kotlin",
+              "Scala",
+              "Tcl+Expect",
+              "Batch",
+              "Bash",
+              "PowerShell",
+              "RegExp",
+              "SQL",
+              "HTML",
+              "CSS"
             ],
             "additionalSkillsCut": 10
           },
@@ -373,12 +386,43 @@
               }
             ],
             "additionalSkills": [
-              "ChatGPT", "Google Gemini", "Claude", "Coded UI", "Protractor", "Node.js",
-              "Spring", "Azure Logic Apps", "Visual Studio", "CouchDB", "SSMS", "MySQL",
-              "Postman", "Fiddler", "Wireshark", "Swagger", "Doxygen", "Jenkins",
-              "TeamCity", "SonarQube", "Fortify", "GitLab", "VersionOne", "ServiceNow",
-              "VMware vSphere", "Hyper-V Manager", "Splunk", "Word", "Excel", "Outlook",
-              "SharePoint", "Office 365", "Power BI", "Microsoft Teams", "Zoom", "Slack", "Mentimeter"
+              "ChatGPT",
+              "Google Gemini",
+              "Claude",
+              "Coded UI",
+              "Protractor",
+              "Node.js",
+              "Spring",
+              "Azure Logic Apps",
+              "Visual Studio",
+              "CouchDB",
+              "SSMS",
+              "MySQL",
+              "Postman",
+              "Fiddler",
+              "Wireshark",
+              "Swagger",
+              "Doxygen",
+              "Jenkins",
+              "TeamCity",
+              "SonarQube",
+              "Fortify",
+              "GitLab",
+              "VersionOne",
+              "ServiceNow",
+              "VMware vSphere",
+              "Hyper-V Manager",
+              "Splunk",
+              "Word",
+              "Excel",
+              "Outlook",
+              "SharePoint",
+              "Office 365",
+              "Power BI",
+              "Microsoft Teams",
+              "Zoom",
+              "Slack",
+              "Mentimeter"
             ],
             "additionalSkillsCut": 15
           }
@@ -414,6 +458,55 @@
           "level": "Basic",
           "proficiency": 2,
           "description": "Basic understanding and simple conversations"
+        }
+      ]
+    },
+    {
+      "description": "Academic background and educational achievements with degrees and specializations.",
+      "icon": "IconBookFilled",
+      "title": "Education",
+      "anchor": "education",
+      "education": [
+        {
+          "degree": "Master of Science in Computer Science",
+          "university": "UNIWERSYTET ŚLĄSKI",
+          "startDate": "October 2012",
+          "endDate": "September 2014",
+          "duration": "2 years",
+          "logo": "https://via.placeholder.com/64x64/3b82f6/ffffff?text=UŚ",
+          "scholarship": {
+            "name": "Academic Excellence Scholarship",
+            "icon": "IconTrophyFilled"
+          },
+          "entries": [
+            {
+              "label": "Thesis",
+              "value": "Analysis and simulation tests of cellular automata of the fourth class."
+            },
+            {
+              "label": "Languages",
+              "value": "JavaScript, HTML, CSS, XML"
+            },
+            {
+              "label": "Tools",
+              "value": "Vanilla JS, Word, Excel, Visio"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "university": "UNIWERSYTET ŚLĄSKI",
+          "startDate": "October 2009",
+          "endDate": "September 2012",
+          "duration": "3 years",
+          "thesis": "Project and implementation of computer remote control with the use of mobile phones.",
+          "languages": "Java, Delphi",
+          "tools": "Android SDK, Eclipse, Word, Excel, Visio",
+          "logo": "https://via.placeholder.com/64x64/3b82f6/ffffff?text=UŚ",
+          "scholarship": {
+            "name": "Merit-Based Scholarship",
+            "icon": "IconAwardFilled"
+          }
         }
       ]
     },
