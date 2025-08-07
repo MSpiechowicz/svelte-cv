@@ -40,29 +40,29 @@
     "avatarPosition": "left",
     "email": "john.doe@example.com",
     "gender": "male",
-    "location": "New York, NY",
+    "location": "Frankfurt am Main, Hesse, Germany",
     "name": "John Doe",
     "phone": "+1234567890",
     "title": [
-      "Software Engineer",
-      "Full Stack Developer",
-      "UI/UX Designer",
-      "Frontend Developer"
+      "Lead Web Developer",
+      "Senior Frontend Developer",
+      "Full Stack Engineer",
+      "React.js Specialist"
     ],
     "website": "www.john-doe.com",
     "avatar": "https://7o11rc0irq.ufs.sh/f/omi1cgRaYepQTRRhXe0Oqv9kNA5bJDyOCVnGdeFQpzB8MjYu"
   },
   "sections": [
     {
-      "description": "I am a software engineer with a passion for building web applications. I am a quick learner and I am always looking to improve my skills.",
+      "description": "Experienced Lead Web Developer with expertise in React.js, Node.js, and modern web technologies. Passionate about building scalable applications and leading development teams.",
       "icon": "IconUserFilled",
       "items": [
         {
           "list": [
-            "I am a software engineer with a <b>passion</b> for building web applications.",
-            "I am a <b>quick learner</b> and I am always looking to improve my skills.",
-            "I am a software engineer with a <b>passion</b> for building web applications.",
-            "I am a <b>quick learner</b> and I am always looking to improve my skills."
+            "Lead web development initiatives with focus on <b>React.js</b> and <b>Node.js</b> technologies",
+            "Architect and implement <b>design systems</b> for consistent user experience across applications",
+            "Drive <b>full-stack development</b> solutions with emphasis on solution architecture",
+            "Lead and mentor development teams while ensuring high <b>code quality standards</b>"
           ],
           "listIcon": "IconSquareRoundedFilled"
         }
@@ -77,46 +77,263 @@
       "anchor": "experience",
       "experience": [
         {
-          "title": "Lead Software Engineer in Test",
-          "subtitle": "Test Architect, Technical Lead",
-          "company": "EPAM",
-          "logo": "https://images.seeklogo.com/logo-png/35/1/epam-logo-png_seeklogo-352146.png",
-          "startDate": "January 2021",
-          "endDate": "February 2022",
-          "duration": "1 year 2 months",
+          "title": "Lead Web Developer",
+          "company": "Bosch",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
+          "startDate": "April 2024",
+          "endDate": "Present",
+          "duration": "1 year 5 months",
           "bullets": [
-            "Co-authored a comprehensive QA strategy document, focusing on the Software Testing Life Cycle, Defect Management, Sign-off, and Triage, resulting in standardized QA practices adoption.",
-            "Evaluated the existing test automation project for compliance with industry standards, delivering a detailed report outlining violations, risk analysis, and prioritized improvement recommendations.",
-            "Architected the Proof of Concept and Minimum Viable Product for the next-generation test automation framework, surpassing legacy solutions in readability, reliability, scalability, and maintainability.",
-            "Reverse-engineered undocumented external services to implement a mock with template-based responses, enabling isolated testing, minimizing test flakiness, and reducing test environment costs.",
-            "Improved UI test execution time by 73% using the mock and new framework, cutting average test duration from 143 to 38 seconds.",
-            "Developed CI/CD workflows in Azure Pipelines, structuring modular YAML templates to standardize and reuse stages, jobs, and steps.",
-            "Led and upskilled a team of 6 test automation engineers, providing hands-on technical guidance to enhance team performance."
+            "Lead web development initiatives with focus on Node.js and React.js technologies",
+            "Architect and implement design systems for consistent user experience across applications",
+            "Drive full-stack development solutions with emphasis on solution architecture",
+            "Manage agile development processes and methodologies for efficient project delivery",
+            "Lead and mentor development teams while ensuring high code quality standards",
+            "Implement and optimize solution architecture patterns for scalable applications"
           ],
-          "languages": "C#, YAML, JSON, XML, XPath, RegExp",
-          "approach": "Scrum",
-          "keywords": "ASP.NET, REST",
-          "tools": "Azure DevOps, Selenium WebDriver, RestSharp, Azure Key Vault, MSAL, Postman, Swagger, StyleCop, Hyper-V Manager"
+          "languages": "JavaScript, TypeScript, Node.js",
+          "approach": "Agile",
+          "keywords": "React.js, Design System, Full-Stack Development, Solution Architecture, Team Management",
+          "tools": "Node.js, React.js, JavaScript, Design System, Agile Methodologies"
         },
         {
-          "title": "Senior Software Engineer",
-          "subtitle": "Full Stack Developer",
-          "company": "TechCorp",
-          "logo": "https://via.placeholder.com/64x64/10b981/ffffff?text=TC",
-          "startDate": "March 2022",
-          "endDate": "Present",
-          "duration": "2 years 9 months",
+          "title": "Senior Frontend Developer",
+          "company": "Bosch",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
+          "startDate": "October 2023",
+          "endDate": "March 2024",
+          "duration": "6 months",
           "bullets": [
-            "Developed and maintained scalable web applications using React, Node.js, and TypeScript.",
-            "Implemented CI/CD pipelines using GitHub Actions and Docker, reducing deployment time by 60%.",
-            "Led a team of 4 developers in implementing new features and bug fixes.",
-            "Optimized database queries and improved application performance by 40%.",
-            "Mentored junior developers and conducted code reviews to maintain code quality."
+            "Developed and maintained React.js applications with focus on performance and scalability",
+            "Implemented comprehensive design systems for consistent UI/UX across platforms",
+            "Architected solution architecture for microservices-based applications",
+            "Utilized TypeScript for type-safe development and improved code maintainability",
+            "Applied SASS and CSS for advanced styling and responsive design",
+            "Collaborated with cross-functional teams on microservices architecture"
           ],
-          "languages": "TypeScript, JavaScript, Python, SQL",
+          "languages": "JavaScript, TypeScript, SASS, CSS",
           "approach": "Agile",
-          "keywords": "React, Node.js, AWS",
-          "tools": "GitHub, Docker, AWS, Jest, Cypress"
+          "keywords": "React.js, Design System, Solution Architecture, Microservices",
+          "tools": "React.js, TypeScript, SASS, CSS, Microservices"
+        },
+        {
+          "title": "Frontend Developer",
+          "company": "Bosch",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png",
+          "startDate": "January 2023",
+          "endDate": "September 2023",
+          "duration": "9 months",
+          "bullets": [
+            "Built reusable web components for scalable frontend architecture",
+            "Developed and maintained design systems for consistent user interfaces",
+            "Implemented Node.js solutions for backend integration and API development",
+            "Architected solution architecture for complex web applications",
+            "Collaborated with design and development teams on component library development",
+            "Ensured cross-browser compatibility and responsive design implementation"
+          ],
+          "languages": "JavaScript, Node.js",
+          "approach": "Agile",
+          "keywords": "React.js, Web Components, Design System, Solution Architecture",
+          "tools": "React.js, Web Components, Design System, Node.js"
+        },
+        {
+          "title": "Frontend Developer",
+          "company": "COBI.Bike GmbH",
+          "logo": "https://station-frankfurt.de/wp-content/uploads/2016/02/cobi_bike.png",
+          "startDate": "October 2021",
+          "endDate": "December 2022",
+          "duration": "1 year 3 months",
+          "bullets": [
+            "Developed React.js applications with focus on web components architecture",
+            "Implemented design systems for consistent user experience across products",
+            "Utilized Node.js for backend development and API integration",
+            "Built scalable frontend solutions for bike connectivity applications",
+            "Collaborated with product teams on feature development and user experience",
+            "Maintained and optimized existing frontend codebase"
+          ],
+          "languages": "JavaScript, Node.js",
+          "approach": "Agile",
+          "keywords": "React.js, Web Components, Design System",
+          "tools": "React.js, Web Components, Design System, Node.js"
+        },
+        {
+          "title": "Software Engineer",
+          "company": "Natural Coding",
+          "startDate": "February 2020",
+          "endDate": "September 2021",
+          "duration": "1 year 8 months",
+          "bullets": [
+            "Developed full-stack applications using modern web technologies",
+            "Implemented both frontend and backend solutions for client projects",
+            "Collaborated with clients to understand requirements and deliver solutions",
+            "Maintained and optimized existing applications and systems",
+            "Participated in code reviews and technical discussions",
+            "Contributed to project planning and technical architecture decisions"
+          ],
+          "languages": "JavaScript, Python, SQL",
+          "approach": "Agile",
+          "keywords": "Full Stack Development",
+          "tools": "React.js, Node.js, Python, Database Technologies"
+        },
+        {
+          "title": "Senior Programme Manager",
+          "company": "Relyon IT Services Sp. z o.o. Spółka Komandytowa",
+          "logo": "https://rits.center/wp-content/uploads/2024/03/transparent_logo-kolor-mini.png",
+          "startDate": "March 2019",
+          "endDate": "February 2020",
+          "duration": "1 year",
+          "bullets": [
+            "Led program management initiatives for IT services and solutions",
+            "Managed cross-functional teams and stakeholder relationships",
+            "Oversaw project delivery and ensured quality standards",
+            "Developed and implemented program strategies and roadmaps",
+            "Coordinated with clients and internal teams on project requirements",
+            "Monitored program performance and implemented improvement strategies"
+          ],
+          "languages": "English, Polish",
+          "approach": "Agile",
+          "keywords": "Program Management, Team Leadership, IT Services, Business Analysis",
+          "tools": "Project Management Tools, Communication Platforms"
+        },
+        {
+          "title": "International Project Manager",
+          "company": "Relyon IT Services Sp. z o.o. Spółka Komandytowa",
+          "logo": "https://rits.center/wp-content/uploads/2024/03/transparent_logo-kolor-mini.png",
+          "startDate": "December 2018",
+          "endDate": "February 2019",
+          "duration": "3 months",
+          "bullets": [
+            "Managed international projects across multiple regions and time zones",
+            "Coordinated with international teams and stakeholders",
+            "Ensured project delivery within scope, time, and budget constraints",
+            "Facilitated communication between international project teams",
+            "Developed project documentation and reporting for international stakeholders",
+            "Implemented project management best practices for international projects"
+          ],
+          "languages": "English, Polish",
+          "approach": "Agile",
+          "keywords": "International Project Management, Team Leadership, Business Analysis",
+          "tools": "Project Management Tools, Communication Platforms"
+        },
+        {
+          "title": "Software Engineer",
+          "company": "Jamf",
+          "logo": "https://resources.jamf.com/images/logos/Jamf-color.png",
+          "startDate": "February 2017",
+          "endDate": "November 2018",
+          "duration": "1 year 10 months",
+          "bullets": [
+            "Developed software solutions for device management and security",
+            "Collaborated with development teams on feature implementation",
+            "Participated in code reviews and quality assurance processes",
+            "Contributed to software architecture and design decisions",
+            "Maintained and optimized existing software systems",
+            "Worked with cross-functional teams on product development"
+          ],
+          "languages": "Java, JavaScript, SQL",
+          "approach": "Agile",
+          "keywords": "Java, Device Management, Team Collaboration",
+          "tools": "Java, JavaScript, Database, Device Management"
+        },
+        {
+          "title": "Java Developer",
+          "company": "ING Bank Śląski",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ING_Group_N.V._Logo.svg/1280px-ING_Group_N.V._Logo.svg.png",
+          "startDate": "September 2016",
+          "endDate": "January 2017",
+          "duration": "5 months",
+          "bullets": [
+            "Developed Java applications for banking systems and services",
+            "Collaborated with development teams on banking software solutions",
+            "Participated in code reviews and quality assurance processes",
+            "Maintained and optimized existing Java applications",
+            "Worked with banking-specific technologies and frameworks",
+            "Ensured compliance with banking regulations and security standards"
+          ],
+          "languages": "Java, SQL",
+          "approach": "Agile",
+          "keywords": "Java, Database, Business",
+          "tools": "Java, Database Technologies, Banking Frameworks"
+        },
+        {
+          "title": "Test Automation Developer",
+          "company": "ING Bank Śląski",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ING_Group_N.V._Logo.svg/1280px-ING_Group_N.V._Logo.svg.png",
+          "startDate": "August 2015",
+          "endDate": "August 2016",
+          "duration": "1 year 1 month",
+          "bullets": [
+            "Created unit, performance and automated tests in Java",
+            "Designed new internal technologies for testing purposes using XML data format, ISO messages and encrypted data",
+            "Designed new internal solutions for testing automation",
+            "Performed tests for back-end and front-end solutions",
+            "Developed test frameworks and automation tools",
+            "Collaborated with development teams on quality assurance processes"
+          ],
+          "languages": "Java, XML, SQL",
+          "approach": "Agile",
+          "keywords": "Test Automation, Quality Assurance, Java",
+          "tools": "Java, XML, ISO Messages, Test Automation Tools"
+        },
+        {
+          "title": "Experienced Test Developer",
+          "company": "PERFORM",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Perform_Group.png",
+          "startDate": "March 2015",
+          "endDate": "July 2015",
+          "duration": "5 months",
+          "bullets": [
+            "Designed fast and reliable performance tests for various applications",
+            "Prepared Java and Python training materials and conducted training sessions",
+            "Assured high quality of projects through comprehensive testing strategies",
+            "Provided coaching and mentoring to junior test developers",
+            "Developed performance testing frameworks and methodologies",
+            "Collaborated with development teams on quality improvement initiatives"
+          ],
+          "languages": "Java, Python",
+          "approach": "Agile",
+          "keywords": "Performance Testing, Training, Coaching, Java, Python",
+          "tools": "Java, Python, Performance Testing Tools"
+        },
+        {
+          "title": "Junior Test Developer",
+          "company": "PERFORM",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Perform_Group.png",
+          "startDate": "September 2014",
+          "endDate": "February 2015",
+          "duration": "6 months",
+          "bullets": [
+            "Performed automated testing for various software applications",
+            "Conducted manual testing to ensure software quality",
+            "Designed new internal technologies for testing automation",
+            "Provided coaching and support to team members",
+            "Collaborated with development teams on testing strategies",
+            "Maintained and updated test documentation and procedures"
+          ],
+          "languages": "Java, Python",
+          "approach": "Agile",
+          "keywords": "Automated Testing, Manual Testing, Coaching",
+          "tools": "Java, Python, Test Automation Tools"
+        },
+        {
+          "title": "Deputy Customer Service Manager",
+          "company": "LIBRUS Sp. z o.o.",
+          "logo": "https://sp182.edu.pl/wp-content/uploads/2020/12/libru.png",
+          "startDate": "April 2008",
+          "endDate": "August 2014",
+          "duration": "6 years 5 months",
+          "bullets": [
+            "Managed customer service teams and operations",
+            "Performed manual testing for software quality assurance",
+            "Assured high quality of projects through systematic review processes",
+            "Provided coaching and training to customer service representatives",
+            "Developed and implemented customer service procedures and policies",
+            "Coordinated with other departments to resolve customer issues"
+          ],
+          "languages": "Polish, English",
+          "approach": "Traditional",
+          "keywords": "Customer Service, People Management, Quality Assurance",
+          "tools": "Customer Service Systems, Testing Tools"
         }
       ]
     },
@@ -127,188 +344,105 @@
       "anchor": "timeline",
       "timeline": {
         "title": "CAREER TIMELINE",
-        "startYear": 2011,
+        "startYear": 2008,
         "endYear": 2024,
         "roles": [
           {
-            "name": "Engineering Management",
+            "name": "Web Development Leadership",
             "color": "#ef4444",
-            "totalDuration": "5y 7m",
+            "totalDuration": "2y 8m",
             "periods": [
               {
-                "start": "2017-06",
-                "end": "2018-11",
-                "duration": "1y 5m"
-              },
-              {
-                "start": "2020-01",
+                "start": "2021-10",
                 "end": "2024-12",
-                "duration": "4y 2m"
+                "duration": "2y 8m"
               }
             ]
           },
           {
-            "name": "Technical Leadership",
+            "name": "Frontend Development",
             "color": "#f97316",
-            "totalDuration": "5y 8m",
+            "totalDuration": "3y 8m",
             "periods": [
               {
-                "start": "2013-01",
-                "end": "2014-06",
-                "duration": "1y 5m"
-              },
-              {
-                "start": "2015-08",
-                "end": "2017-12",
-                "duration": "2y 5m"
-              },
-              {
-                "start": "2019-01",
-                "end": "2019-08",
-                "duration": "8m"
-              },
-              {
-                "start": "2020-10",
-                "end": "2021-12",
-                "duration": "1y 2m"
-              }
-            ]
-          },
-          {
-            "name": "Team Leadership",
-            "color": "#22c55e",
-            "totalDuration": "4y 3m",
-            "periods": [
-              {
-                "start": "2016-06",
-                "end": "2018-11",
-                "duration": "2y 5m"
-              },
-              {
-                "start": "2020-01",
-                "end": "2020-12",
-                "duration": "1y"
-              },
-              {
-                "start": "2023-06",
+                "start": "2021-10",
                 "end": "2024-12",
-                "duration": "10m"
+                "duration": "3y 8m"
               }
             ]
           },
           {
-            "name": "Software Development",
-            "color": "#3b82f6",
-            "totalDuration": "10y 4m",
+            "name": "Full Stack Development",
+            "color": "#22c55e",
+            "totalDuration": "1y 8m",
             "periods": [
               {
-                "start": "2012-01",
-                "end": "2015-01",
-                "duration": "3y 10m"
+                "start": "2020-02",
+                "end": "2021-09",
+                "duration": "1y 8m"
+              }
+            ]
+          },
+          {
+            "name": "Project Management",
+            "color": "#3b82f6",
+            "totalDuration": "1y 3m",
+            "periods": [
+              {
+                "start": "2018-12",
+                "end": "2020-02",
+                "duration": "1y 3m"
+              }
+            ]
+          },
+          {
+            "name": "Software Engineering",
+            "color": "#a855f7",
+            "totalDuration": "2y 5m",
+            "periods": [
+              {
+                "start": "2017-02",
+                "end": "2018-11",
+                "duration": "1y 10m"
               },
               {
-                "start": "2016-06",
-                "end": "2018-06",
-                "duration": "2y 4m"
-              },
-              {
-                "start": "2020-01",
-                "end": "2022-06",
-                "duration": "2y 2m"
+                "start": "2016-09",
+                "end": "2017-01",
+                "duration": "5m"
               }
             ]
           },
           {
             "name": "Test Automation",
-            "color": "#a855f7",
-            "totalDuration": "6y 7m",
-            "periods": [
-              {
-                "start": "2011-01",
-                "end": "2011-11",
-                "duration": "11m"
-              },
-              {
-                "start": "2014-01",
-                "end": "2017-01",
-                "duration": "3y"
-              },
-              {
-                "start": "2019-01",
-                "end": "2019-08",
-                "duration": "8m"
-              },
-              {
-                "start": "2020-10",
-                "end": "2021-12",
-                "duration": "1y 2m"
-              },
-              {
-                "start": "2023-06",
-                "end": "2024-12",
-                "duration": "10m"
-              }
-            ]
-          },
-          {
-            "name": "DevOps",
             "color": "#ec4899",
-            "totalDuration": "6y 6m",
+            "totalDuration": "2y 6m",
             "periods": [
               {
-                "start": "2015-01",
-                "end": "2019-06",
-                "duration": "5y 4m"
+                "start": "2015-08",
+                "end": "2016-08",
+                "duration": "1y 1m"
               },
               {
-                "start": "2020-10",
-                "end": "2021-12",
-                "duration": "1y 2m"
+                "start": "2015-03",
+                "end": "2015-07",
+                "duration": "5m"
+              },
+              {
+                "start": "2014-09",
+                "end": "2015-02",
+                "duration": "6m"
               }
             ]
           },
           {
-            "description": "Professional certifications and achievements demonstrating expertise and continuous learning.",
-            "icon": "IconBadgeFilled",
-            "title": "Certifications",
-            "anchor": "certifications",
-            "certifications": [
+            "name": "Customer Service Management",
+            "color": "#8b5cf6",
+            "totalDuration": "6y 5m",
+            "periods": [
               {
-                "title": "Microsoft Azure Fundamentals",
-                "date": "September 2020",
-                "exam": "AZ-900",
-                "credentialId": "61DCE1861ED87325",
-                "certificationNumber": "3C89KD-7C4C5C",
-                "logo": "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
-                "issuer": "Microsoft",
-                "verifyLink": "https://www.credly.com/badges/61dce1861ed87325"
-              },
-              {
-                "title": "Microsoft Office Specialist Master",
-                "date": "June 2013",
-                "exam": "Word Expert, Excel Expert, PowerPoint, Access, Outlook, OneNote, SharePoint, Office 365",
-                "credentialId": "wb2Wr-HaaY",
-                "logo": "https://images.credly.com/size/680x680/images/4c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
-                "issuer": "Microsoft",
-                "verifyLink": "https://www.microsoft.com/en-us/learning/transcripts.aspx"
-              },
-              {
-                "title": "ISTQB Certified Tester Foundation Level",
-                "date": "April 2017",
-                "exam": "ISTQB CTFL",
-                "credentialId": "07307/FLCT/2017",
-                "logo": "https://images.credly.com/size/680x680/images/2c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
-                "issuer": "ISTQB",
-                "verifyLink": "https://www.istqb.org/certifications/certified-tester-foundation-level"
-              },
-              {
-                "title": "EF Standard English Test – C2 Proficient",
-                "date": "August 2018",
-                "exam": "EF SET",
-                "credentialId": "wBMWws",
-                "logo": "https://images.credly.com/size/680x680/images/3c8e8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/image.png",
-                "issuer": "EF Education First",
-                "verifyLink": "https://www.efset.org/cert/"
+                "start": "2008-04",
+                "end": "2014-08",
+                "duration": "6y 5m"
               }
             ]
           }

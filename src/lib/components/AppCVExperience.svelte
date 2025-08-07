@@ -28,8 +28,11 @@
 					<h3 class="text-xl font-bold text-text-primary mb-1">
 						{item.title}
 					</h3>
+					<p class="text-lg font-semibold text-text-secondary mb-1">
+						{item.company}
+					</p>
 					{#if item.subtitle}
-						<p class="text-md font-semibold mb-1">
+						<p class="text-md font-medium text-text-secondary mb-1">
 							{item.subtitle}
 						</p>
 					{/if}
@@ -52,7 +55,7 @@
 				{/if}
 			</div>
 
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4 max-w-[800px]">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-4 max-w-[800px]">
 				{#each item.bullets as bullet (bullet)}
 					<div class="flex items-start gap-2">
 						<div class="w-2 h-2 bg-accent rounded-full mt-1.5 flex-shrink-0"></div>
