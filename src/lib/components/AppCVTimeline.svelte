@@ -103,22 +103,24 @@
 
 				<div class="relative space-y-2 py-4">
 					{#each timeline.roles as role, index (role.name)}
-						<div class="relative h-8 {index % 2 === 1 ? 'bg-transparent' : ''} rounded px-1">
-							{#each role.periods as period (period.start + period.end)}
-								<button
-									class="absolute h-6 rounded flex items-center justify-center text-xs font-medium text-white shadow-sm cursor-pointer hover:opacity-80 transition-opacity min-w-10"
-									style="
-										left: {getPeriodLeft(period.start)}%;
-										width: {getPeriodWidth(period.start, period.end)}%;
-										background-color: {role.color};
-									"
-									onmouseenter={(e) => showTooltip(e, role.name, role.color)}
-									onmouseleave={hideTooltip}
-								>
-									{period.duration}
-								</button>
-							{/each}
-						</div>
+						{#if role.periods && role.periods.length > 0}
+							<div class="relative h-8 {index % 2 === 1 ? 'bg-transparent' : ''} rounded px-1">
+								{#each role.periods as period (period.start + period.end)}
+									<button
+										class="absolute h-6 rounded flex items-center justify-center text-xs font-medium text-white shadow-sm cursor-pointer hover:opacity-80 transition-opacity min-w-10"
+										style="
+											left: {getPeriodLeft(period.start)}%;
+											width: {getPeriodWidth(period.start, period.end)}%;
+											background-color: {role.color};
+										"
+										onmouseenter={(e) => showTooltip(e, role.name, role.color)}
+										onmouseleave={hideTooltip}
+									>
+										{period.duration}
+									</button>
+								{/each}
+							</div>
+						{/if}
 					{/each}
 				</div>
 			</div>
