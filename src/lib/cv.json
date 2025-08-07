@@ -44,6 +44,11 @@
       "text": "Education"
     },
     {
+      "anchor": "projects",
+      "icon": "IconFoldersFilled",
+      "text": "Projects"
+    },
+    {
       "anchor": "certifications",
       "icon": "IconBadgeFilled",
       "text": "Certifications"
@@ -601,6 +606,38 @@
       ],
       "icon": "IconBookFilled",
       "title": "Education"
+    },
+    {
+      "anchor": "projects",
+      "description": "Showcase of personal and professional projects demonstrating technical skills, problem-solving abilities, and innovative solutions.",
+      "icon": "IconFoldersFilled",
+      "projects": [
+        {
+          "title": "Svelte CV Builder",
+          "description": "Modern, responsive CV builder built with Svelte 5 and Tailwind CSS. Features dynamic content management, timeline visualization, and export capabilities.",
+          "technologies": ["Svelte 5", "TypeScript", "Tailwind CSS", "Vite"],
+          "github": "https://github.com/username/svelte-cv",
+          "demo": "https://cv-demo.example.com",
+          "status": "completed"
+        },
+        {
+          "title": "React Design System",
+          "description": "Comprehensive design system built with React and Storybook. Includes reusable components, documentation, and accessibility features.",
+          "technologies": ["React", "TypeScript", "Storybook", "Styled Components"],
+          "github": "https://github.com/username/react-design-system",
+          "demo": "https://design-system.example.com",
+          "status": "in-progress"
+        },
+        {
+          "title": "E-commerce Platform",
+          "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+          "technologies": ["Node.js", "React", "MongoDB", "Stripe"],
+          "github": "https://github.com/username/ecommerce-platform",
+          "demo": "https://ecommerce.example.com",
+          "status": "completed"
+        }
+      ],
+      "title": "Projects"
     },
     {
       "anchor": "certifications",

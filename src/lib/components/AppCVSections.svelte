@@ -4,6 +4,7 @@
 	import AppCVEducation from './AppCVEducation.svelte';
 	import AppCVExperience from './AppCVExperience.svelte';
 	import AppCVLanguages from './AppCVLanguages.svelte';
+	import AppCVProjects from './AppCVProjects.svelte';
 	import AppCVSectionTitle from './AppCVSectionTitle.svelte';
 	import AppCVSkills from './AppCVSkills.svelte';
 	import AppCVSummary from './AppCVSummary.svelte';
@@ -24,6 +25,8 @@
 			<AppCVLanguages languages={section.languages} />
 		{:else if section.education}
 			<AppCVEducation education={section.education} />
+		{:else if section.projects}
+			<AppCVProjects projects={section.projects} />
 		{:else if section.certifications}
 			<AppCVCertifications certifications={section.certifications} />
 		{:else if section.summary}
