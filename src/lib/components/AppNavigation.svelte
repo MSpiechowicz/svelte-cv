@@ -14,7 +14,7 @@
 	}
 </script>
 
-<div class="absolute md:relative">
+<div class="fixed left-0 top-0 md:sticky md:top-0 md:h-screen">
 	<nav
 		class="flex relative justify-center items-center flex-col w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-40 border-r border-border
 		md:translate-x-0
