@@ -4,6 +4,6 @@
 </script>
 
 <div class="flex flex-row relative">
-  <AppNavigation />
-  <AppCV />
+	<AppNavigation />
+	<AppCV />
 </div>

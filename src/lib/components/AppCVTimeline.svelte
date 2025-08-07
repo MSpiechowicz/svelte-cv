@@ -64,7 +64,7 @@
 <div class="bg-background overflow-x-auto">
 	{#if tooltipVisible}
 		<div
-			class="fixed z-50 px-3 py-2 text-xs font-medium text-white rounded shadow-lg pointer-events-none"
+			class="fixed z-40 px-3 py-2 text-xs font-medium text-white rounded shadow-lg pointer-events-none"
 			style="
 				left: {tooltipX + 10}px;
 				top: {tooltipY - 40}px;

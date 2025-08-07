@@ -14,10 +14,10 @@
 	}
 </script>
 
-<div class="fixed left-0 top-0 md:sticky md:top-0 md:h-screen">
+<div class="fixed left-0 top-0 xl:sticky xl:top-0 xl:h-screen">
 	<nav
-		class="flex relative justify-center items-center flex-col w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-40 border-r border-border
-		md:translate-x-0
+		class="flex relative justify-center items-center flex-col w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-50 border-r border-border
+		xl:translate-x-0
 		{navigationStore.isOpen ? 'translate-x-0' : '-translate-x-full'}
 		"
 	>
