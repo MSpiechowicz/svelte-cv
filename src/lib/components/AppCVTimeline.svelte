@@ -16,24 +16,97 @@
 		return Math.max(timeline.endYear, getCurrentYear());
 	}
 
+	function getCurrentDate(): { year: number; month: number } {
+		const now = new Date();
+		return { year: now.getFullYear(), month: now.getMonth() + 1 };
+	}
+
+	function parseDate(dateString: string): { year: number; month: number } {
+		if (dateString === 'current') {
+			return getCurrentDate();
+		}
+		const [year, month] = dateString.split('-').map(Number);
+		return { year, month };
+	}
+
+	function calculateDuration(start: string, end: string): string {
+		const startDate = parseDate(start);
+		const endDate = parseDate(end);
+
+		const startYear = startDate.year;
+		const startMonth = startDate.month;
+		const endYear = endDate.year;
+		const endMonth = endDate.month;
+
+		let years = endYear - startYear;
+		let months = endMonth - startMonth;
+
+		if (months < 0) {
+			years--;
+			months += 12;
+		}
+
+		if (years === 0) {
+			return `${months}m`;
+		} else if (months === 0) {
+			return `${years}y`;
+		} else {
+			return `${years}y ${months}m`;
+		}
+	}
+
+	function calculateTotalDuration(periods: Array<{ start: string; end: string }>): string {
+		let totalYears = 0;
+		let totalMonths = 0;
+
+		for (const period of periods) {
+			const startDate = parseDate(period.start);
+			const endDate = parseDate(period.end);
+
+			const startYear = startDate.year;
+			const startMonth = startDate.month;
+			const endYear = endDate.year;
+			const endMonth = endDate.month;
+
+			let years = endYear - startYear;
+			let months = endMonth - startMonth;
+
+			if (months < 0) {
+				years--;
+				months += 12;
+			}
+
+			totalYears += years;
+			totalMonths += months;
+		}
+
+		totalYears += Math.floor(totalMonths / 12);
+		totalMonths = totalMonths % 12;
+
+		if (totalYears === 0) {
+			return `${totalMonths}m`;
+		} else if (totalMonths === 0) {
+			return `${totalYears}y`;
+		} else {
+			return `${totalYears}y ${totalMonths}m`;
+		}
+	}
+
 	function getPeriodWidth(start: string, end: string): number {
-		const startYear = parseInt(start.split('-')[0]);
-		const endYear = parseInt(end.split('-')[0]);
-		const startMonth = parseInt(start.split('-')[1]);
-		const endMonth = parseInt(end.split('-')[1]);
+		const startDate = parseDate(start);
+		const endDate = parseDate(end);
 
-		const startDate = startYear + startMonth / 12;
-		const endDate = endYear + endMonth / 12;
+		const startDecimal = startDate.year + (startDate.month - 1) / 12;
+		const endDecimal = endDate.year + (endDate.month - 1) / 12;
 
-		return ((endDate - startDate) / (getTimelineEndYear() - timeline.startYear)) * 100;
+		return ((endDecimal - startDecimal) / (getTimelineEndYear() - timeline.startYear + 1)) * 100;
 	}
 
 	function getPeriodLeft(start: string): number {
-		const startYear = parseInt(start.split('-')[0]);
-		const startMonth = parseInt(start.split('-')[1]);
-		const startDate = startYear + startMonth / 12;
+		const startDate = parseDate(start);
+		const startDecimal = startDate.year + (startDate.month - 1) / 12;
 
-		return ((startDate - timeline.startYear) / (getTimelineEndYear() - timeline.startYear)) * 100;
+		return ((startDecimal - timeline.startYear) / (getTimelineEndYear() - timeline.startYear + 1)) * 100;
 	}
 
 	function generateYears(): number[] {
@@ -115,8 +188,9 @@
 										"
 										onmouseenter={(e) => showTooltip(e, role.name, role.color)}
 										onmouseleave={hideTooltip}
+										aria-label="{role.name} - {calculateDuration(period.start, period.end)}"
 									>
-										{period.duration}
+										{calculateDuration(period.start, period.end)}
 									</button>
 								{/each}
 							</div>
@@ -137,7 +211,7 @@
 					<span
 						class="text-xs text-text-secondary bg-background-secondary px-2 py-1 rounded flex-shrink-0"
 					>
-						{role.totalDuration}
+						{calculateTotalDuration(role.periods)}
 					</span>
 				</div>
 			{/each}

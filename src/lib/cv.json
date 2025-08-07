@@ -71,7 +71,7 @@
       "anchor": "summary"
     },
     {
-      "description": "Professional experience and achievements across various roles and companies.",
+      "description": "Professional experience and achievements across various roles, companies, countries and technologies.",
       "icon": "IconBriefcase2Filled",
       "title": "Experience",
       "anchor": "experience",
@@ -91,10 +91,7 @@
             "Lead and mentor development teams while ensuring high code quality standards",
             "Implement and optimize solution architecture patterns for scalable applications"
           ],
-          "languages": "JavaScript, TypeScript, Node.js",
-          "approach": "Agile",
-          "keywords": "React.js, Design System, Full-Stack Development, Solution Architecture, Team Management",
-          "tools": "Node.js, React.js, JavaScript, Design System, Agile Methodologies"
+          "keywords": "React.js, Design System, Full-Stack Development, Solution Architecture, Team Management"
         },
         {
           "title": "Senior Frontend Developer",
@@ -111,10 +108,7 @@
             "Applied SASS and CSS for advanced styling and responsive design",
             "Collaborated with cross-functional teams on microservices architecture"
           ],
-          "languages": "JavaScript, TypeScript, SASS, CSS",
-          "approach": "Agile",
-          "keywords": "React.js, Design System, Solution Architecture, Microservices",
-          "tools": "React.js, TypeScript, SASS, CSS, Microservices"
+          "keywords": "React.js, Design System, Solution Architecture, Microservices"
         },
         {
           "title": "Frontend Developer",
@@ -151,10 +145,7 @@
             "Collaborated with product teams on feature development and user experience",
             "Maintained and optimized existing frontend codebase"
           ],
-          "languages": "JavaScript, Node.js",
-          "approach": "Agile",
-          "keywords": "React.js, Web Components, Design System",
-          "tools": "React.js, Web Components, Design System, Node.js"
+          "keywords": "React.js, Web Components, Design System"
         },
         {
           "title": "Software Engineer",
@@ -170,10 +161,7 @@
             "Participated in code reviews and technical discussions",
             "Contributed to project planning and technical architecture decisions"
           ],
-          "languages": "JavaScript, Python, SQL",
-          "approach": "Agile",
-          "keywords": "Full Stack Development",
-          "tools": "React.js, Node.js, Python, Database Technologies"
+          "keywords": "Full Stack Development"
         },
         {
           "title": "Senior Programme Manager",
@@ -190,10 +178,7 @@
             "Coordinated with clients and internal teams on project requirements",
             "Monitored program performance and implemented improvement strategies"
           ],
-          "languages": "English, Polish",
-          "approach": "Agile",
-          "keywords": "Program Management, Team Leadership, IT Services, Business Analysis",
-          "tools": "Project Management Tools, Communication Platforms"
+          "keywords": "Program Management, Team Leadership, IT Services, Business Analysis"
         },
         {
           "title": "International Project Manager",
@@ -210,10 +195,7 @@
             "Developed project documentation and reporting for international stakeholders",
             "Implemented project management best practices for international projects"
           ],
-          "languages": "English, Polish",
-          "approach": "Agile",
-          "keywords": "International Project Management, Team Leadership, Business Analysis",
-          "tools": "Project Management Tools, Communication Platforms"
+          "keywords": "International Project Management, Team Leadership, Business Analysis"
         },
         {
           "title": "Software Engineer",
@@ -230,10 +212,7 @@
             "Maintained and optimized existing software systems",
             "Worked with cross-functional teams on product development"
           ],
-          "languages": "Java, JavaScript, SQL",
-          "approach": "Agile",
-          "keywords": "Java, Device Management, Team Collaboration",
-          "tools": "Java, JavaScript, Database, Device Management"
+          "keywords": "Java, Device Management, Team Collaboration"
         },
         {
           "title": "Java Developer",
@@ -250,10 +229,7 @@
             "Worked with banking-specific technologies and frameworks",
             "Ensured compliance with banking regulations and security standards"
           ],
-          "languages": "Java, SQL",
-          "approach": "Agile",
-          "keywords": "Java, Database, Business",
-          "tools": "Java, Database Technologies, Banking Frameworks"
+          "keywords": "Java, Database, Business"
         },
         {
           "title": "Test Automation Developer",
@@ -270,10 +246,7 @@
             "Developed test frameworks and automation tools",
             "Collaborated with development teams on quality assurance processes"
           ],
-          "languages": "Java, XML, SQL",
-          "approach": "Agile",
-          "keywords": "Test Automation, Quality Assurance, Java",
-          "tools": "Java, XML, ISO Messages, Test Automation Tools"
+          "keywords": "Test Automation, Quality Assurance, Java, XML, ISO Messages"
         },
         {
           "title": "Experienced Test Developer",
@@ -290,10 +263,7 @@
             "Developed performance testing frameworks and methodologies",
             "Collaborated with development teams on quality improvement initiatives"
           ],
-          "languages": "Java, Python",
-          "approach": "Agile",
-          "keywords": "Performance Testing, Training, Coaching, Java, Python",
-          "tools": "Java, Python, Performance Testing Tools"
+          "keywords": "Performance Testing, Training, Coaching, Java, Python"
         },
         {
           "title": "Junior Test Developer",
@@ -310,10 +280,7 @@
             "Collaborated with development teams on testing strategies",
             "Maintained and updated test documentation and procedures"
           ],
-          "languages": "Java, Python",
-          "approach": "Agile",
-          "keywords": "Automated Testing, Manual Testing, Coaching",
-          "tools": "Java, Python, Test Automation Tools"
+          "keywords": "Automated Testing, Manual Testing, Coaching"
         },
         {
           "title": "Deputy Customer Service Manager",
@@ -330,10 +297,7 @@
             "Developed and implemented customer service procedures and policies",
             "Coordinated with other departments to resolve customer issues"
           ],
-          "languages": "Polish, English",
-          "approach": "Traditional",
-          "keywords": "Customer Service, People Management, Quality Assurance",
-          "tools": "Customer Service Systems, Testing Tools"
+          "keywords": "Customer Service, People Management, Quality Assurance"
         }
       ]
     },
@@ -345,104 +309,80 @@
       "timeline": {
         "title": "CAREER TIMELINE",
         "startYear": 2008,
-        "endYear": 2024,
+        "endYear": 2025,
         "roles": [
           {
-            "name": "Web Development Leadership",
+            "name": "Leadership",
             "color": "#ef4444",
-            "totalDuration": "2y 8m",
+            "totalDuration": "current",
             "periods": [
               {
-                "start": "2021-10",
-                "end": "2024-12",
-                "duration": "2y 8m"
+                "start": "2024-04",
+                "end": "current",
+                "duration": "current"
+              },
+              {
+                "start": "2018-12",
+                "end": "2020-02",
+                "duration": "1y 3m"
+              },
+              {
+                "start": "2011-06",
+                "end": "2014-08",
+                "duration": "3y 2m"
               }
             ]
           },
           {
             "name": "Frontend Development",
             "color": "#f97316",
-            "totalDuration": "3y 8m",
+            "totalDuration": "current",
             "periods": [
               {
                 "start": "2021-10",
-                "end": "2024-12",
-                "duration": "3y 8m"
-              }
-            ]
-          },
-          {
-            "name": "Full Stack Development",
-            "color": "#22c55e",
-            "totalDuration": "1y 8m",
-            "periods": [
-              {
-                "start": "2020-02",
-                "end": "2021-09",
-                "duration": "1y 8m"
-              }
-            ]
-          },
-          {
-            "name": "Project Management",
-            "color": "#3b82f6",
-            "totalDuration": "1y 3m",
-            "periods": [
-              {
-                "start": "2018-12",
-                "end": "2020-02",
-                "duration": "1y 3m"
+                "end": "current",
+                "duration": "current"
               }
             ]
           },
           {
             "name": "Software Engineering",
-            "color": "#a855f7",
-            "totalDuration": "2y 5m",
+            "color": "#22c55e",
+            "totalDuration": "3y 3m",
             "periods": [
               {
-                "start": "2017-02",
-                "end": "2018-11",
-                "duration": "1y 10m"
+                "start": "2020-02",
+                "end": "2021-09",
+                "duration": "1y 8m"
               },
               {
                 "start": "2016-09",
-                "end": "2017-01",
-                "duration": "5m"
+                "end": "2018-11",
+                "duration": "2y 2m"
               }
             ]
           },
           {
             "name": "Test Automation",
-            "color": "#ec4899",
-            "totalDuration": "2y 6m",
+            "color": "#a855f7",
+            "totalDuration": "1y 11m",
             "periods": [
               {
-                "start": "2015-08",
-                "end": "2016-08",
-                "duration": "1y 1m"
-              },
-              {
-                "start": "2015-03",
-                "end": "2015-07",
-                "duration": "5m"
-              },
-              {
                 "start": "2014-09",
-                "end": "2015-02",
-                "duration": "6m"
+                "end": "2016-08",
+                "duration": "1y 11m"
               }
             ]
           },
           {
             "name": "Customer Service Management",
             "color": "#8b5cf6",
-            "totalDuration": "6y 5m",
+            "totalDuration": "3y 3m",
             "periods": [
               {
                 "start": "2008-04",
-                "end": "2014-08",
-                "duration": "6y 5m"
+                "end": "2011-05",
+                "duration": "3y 3m"
               }
             ]
           }
