@@ -15,7 +15,7 @@
 				{value}
 			</a>
 		{:else}
-			<span class="break-words">{value}</span>
+			<span class="break-words truncate">{value}</span>
 		{/if}
 	</div>
 {/if}
