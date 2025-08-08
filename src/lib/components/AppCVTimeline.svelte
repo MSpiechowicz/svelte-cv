@@ -156,7 +156,7 @@
 							2 ===
 						0
 							? 'bg-background-secondary'
-							: ''} {year === getTimelineEndYear() ? 'bg-accent/10' : ''}"
+							: ''}"
 					>
 						{year}
 					</div>
