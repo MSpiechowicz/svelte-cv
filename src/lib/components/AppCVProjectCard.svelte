@@ -14,7 +14,7 @@
 				<h3 class="text-xl font-bold text-text-primary">{project.title}</h3>
 			</div>
 
-			<p class="text-text-secondary mb-4 leading-relaxed !max-w-[22ch] sm:!max-w-[40ch] md:!max-w-[70ch]">
+			<p class="text-text-secondary mb-4 leading-relaxed !max-w-[22ch] sm:!max-w-[40ch] lg:!max-w-[60ch] xl:!max-w-[70ch]">
 				{project.description}
 			</p>
 
