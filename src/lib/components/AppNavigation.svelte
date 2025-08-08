@@ -16,7 +16,7 @@
 
 <div class="fixed left-0 top-0 xl:sticky xl:top-0 xl:h-screen z-150">
 	<nav
-		class="flex relative justify-center items-center flex-col w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-50 border-r border-border
+		class="flex relative justify-center items-center flex-col w-20 md:w-24 min-h-screen h-full bg-background-secondary dark:bg-background-secondary-dark gap-6 text-icon dark:text-icon-dark transition-transform duration-300 ease-in-out z-50 border-r border-border
 		xl:translate-x-0
 		{navigationStore.isOpen ? 'translate-x-0' : '-translate-x-full'}
 		"
@@ -26,7 +26,7 @@
 				<button onclick={() => scrollToSection(item.anchor)} aria-label={item.text}>
 					<AppCVSectionIcon
 						icon={item.icon}
-						class="w-10 h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
+						class="w-8 h-8 md:w-10 md:h-10 hover:text-icon-hover dark:hover:text-icon-hover-dark cursor-pointer"
 					/>
 				</button>
 				<AppNavigationTooltip text={item.text} />
