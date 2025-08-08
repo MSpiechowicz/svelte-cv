@@ -24,7 +24,7 @@
 						{/if}
 					</p>
 				</div>
-				<div class="sm:block ml-4 flex-shrink-0">
+				<div class="hidden sm:block ml-4 flex-shrink-0">
 					<img
 						src={item.logo}
 						alt="{item.university} logo"
