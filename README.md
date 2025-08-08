@@ -14,29 +14,36 @@ A modern, responsive CV/resume builder built with SvelteKit and TypeScript. Crea
 - **SEO Optimized**: Ready for deployment and search engine optimization
 - **Type Safe**: Full TypeScript support for better development experience
 
+## 🌐 Live Demo
+
+Check out the live demo: **[View Live Demo](https://mspiechowicz.github.io/svelte-cv/)**
+
 ## 🛠️ Tech Stack
 
 ### Core Technologies
+
 - **SvelteKit 5** - Full-stack web framework
 - **TypeScript** - Type-safe JavaScript
 - **Tailwind CSS 4** - Utility-first CSS framework
 - **Vite** - Fast build tool and dev server
 
 ### UI & Icons
+
 - **Tabler Icons Svelte** - Icon library used in the project
 
 ### Development Tools
+
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
 - **Svelte Check** - TypeScript checking for Svelte
 
 ## 📁 Project Structure
 
-```
+```bash
 svelte-cv/
 ├── src/
 │   ├── lib/
-│   │   ├── components/          # Svelte components
+│   │   ├── components/         # Svelte components
 │   │   │   ├── AppCV.svelte    # Main CV component
 │   │   │   ├── AppCVHeader.svelte
 │   │   │   ├── AppCVSections.svelte
@@ -47,7 +54,7 @@ svelte-cv/
 │   │   ├── utils.ts            # Utility functions
 │   │   └── cv.json             # CV data structure
 │   ├── routes/                 # SvelteKit routes
-│   └── app.html               # HTML template
+│   └── app.html                # HTML template
 ├── static/                     # Static assets
 ├── package.json
 ├── svelte.config.js
@@ -60,6 +67,7 @@ svelte-cv/
 The CV data is stored in `src/lib/cv.json` and follows this structure:
 
 ### Header Section
+
 ```json
 {
   "header": {
@@ -79,6 +87,7 @@ The CV data is stored in `src/lib/cv.json` and follows this structure:
 ```
 
 ### Navigation
+
 ```json
 {
   "navigation": [
@@ -92,9 +101,11 @@ The CV data is stored in `src/lib/cv.json` and follows this structure:
 ```
 
 ### Sections
+
 Each section contains different data structures:
 
 #### Summary Section
+
 ```json
 {
   "anchor": "summary",
@@ -110,6 +121,7 @@ Each section contains different data structures:
 ```
 
 #### Projects Section
+
 ```json
 {
   "anchor": "projects",
@@ -129,6 +141,7 @@ Each section contains different data structures:
 ```
 
 #### Skills Section
+
 ```json
 {
   "anchor": "skills",
@@ -154,6 +167,7 @@ Each section contains different data structures:
 ```
 
 #### Experience Section
+
 ```json
 {
   "anchor": "experience",
@@ -179,6 +193,7 @@ Each section contains different data structures:
 ```
 
 #### Timeline Section
+
 ```json
 {
   "anchor": "timeline",
@@ -207,6 +222,7 @@ Each section contains different data structures:
 ```
 
 #### Languages Section
+
 ```json
 {
   "anchor": "languages",
@@ -225,6 +241,7 @@ Each section contains different data structures:
 ```
 
 #### Education Section
+
 ```json
 {
   "anchor": "education",
@@ -252,6 +269,7 @@ Each section contains different data structures:
 ```
 
 #### Certifications Section
+
 ```json
 {
   "anchor": "certifications",
@@ -282,23 +300,27 @@ Each section contains different data structures:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 18+
 - npm, yarn, or pnpm
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/svelte-cv.git
    cd svelte-cv
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -341,6 +363,7 @@ The built files will be in the `build` directory, ready for deployment.
 ### Styling
 
 The project uses Tailwind CSS for styling. You can:
+
 - Modify theme color variables in `src/app.css` (`@theme` and `.dark` blocks)
 - Update component classes directly
 - Add custom CSS in `src/app.css`
@@ -348,6 +371,7 @@ The project uses Tailwind CSS for styling. You can:
 ### Icons
 
 The project uses Tabler icons. To add new icons:
+
 1. Import from `@tabler/icons-svelte`. List of supported icons is available [here](https://tabler.io/icons)
 2. Use in your components
 
@@ -357,16 +381,18 @@ The project uses Tabler icons. To add new icons:
 
 This project is configured for static site deployment:
 
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
+**Build the project**
 
-2. **Deploy to your preferred platform**:
-   - **Vercel**: Connect your GitHub repository
-   - **Netlify**: Drag and drop the `build` folder
-   - **GitHub Pages**: Use GitHub Actions
-   - **Any static hosting**: Upload the `build` folder
+```bash
+npm run build
+```
+
+**Deploy to your preferred platform**:
+
+- **Vercel**: Connect your GitHub repository
+- **Netlify**: Drag and drop the `build` folder
+- **GitHub Pages**: Use GitHub Actions
+- **Any static hosting**: Upload the `build` folder
 
 ### Environment Variables
 
