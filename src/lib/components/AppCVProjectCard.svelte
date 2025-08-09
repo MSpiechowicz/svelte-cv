@@ -11,7 +11,9 @@
 		</div>
 		<div class="flex-1 p-6">
 			<div class="mb-1">
-				<h3 class="text-xl font-bold text-text-primary">{project.title}</h3>
+				<h3 class="text-xl font-bold text-text-primary !max-w-[16ch] sm:!max-w-[24ch] lg:!max-w-[60ch] xl:!max-w-[70ch]">
+					{project.title}
+				</h3>
 			</div>
 
 			<p class="text-text-secondary mb-4 leading-relaxed !max-w-[22ch] sm:!max-w-[40ch] lg:!max-w-[60ch] xl:!max-w-[70ch]">
