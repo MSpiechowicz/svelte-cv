@@ -78,6 +78,18 @@
       "icon": "IconFoldersFilled",
       "projects": [
         {
+          "demo": "https://mspiechowicz.github.io/project-palette/",
+          "description": "A project palette generator that allows you to create a palette of similar colors for your project. It is built with React and Vite.",
+          "github": "https://github.com/MSpiechowicz/project-palette",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite"
+          ],
+          "title": "Project Palette"
+        },
+        {
           "demo": "https://track-things.com",
           "description": "Simplify your tracking journey with a user-friendly platform that transforms your data into meaningful charts. No technical skills or spreadsheets required.",
           "technologies": [
