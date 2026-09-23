@@ -194,6 +194,87 @@
             "HTML",
             "CSS"
           ]
+        },
+        {
+          "description": "An in-progress Rust foundation for bridging OCPP chargers to external protocols.",
+          "github": "https://github.com/MSpiechowicz/universal-ocpp-bridge",
+          "technologies": [
+            "Rust",
+            "OCPP 1.6J",
+            "OCPP 2.0.1",
+            "MQTT"
+          ],
+          "title": "Universal OCPP Bridge"
+        },
+        {
+          "description": "A Home Assistant integration for Track Things with calendar support, automation entry creation, and guided Assist conversations.",
+          "github": "https://github.com/MSpiechowicz/track-things-home-assistant",
+          "technologies": [
+            "Home Assistant",
+            "Python",
+            "Track Things"
+          ],
+          "title": "Track Things Home Assistant"
+        },
+        {
+          "description": "An Oh My Pi extension for specialist-assisted planning, implementation, verification, and review.",
+          "github": "https://github.com/MSpiechowicz/oh-my-pi-anvil",
+          "technologies": [
+            "TypeScript",
+            "Oh My Pi",
+            "SQLite"
+          ],
+          "title": "Oh My Pi Anvil"
+        },
+        {
+          "description": "A tmux sidebar for Oh My Pi token activity, session history, and provider allowances.",
+          "github": "https://github.com/MSpiechowicz/oh-my-pi-usage-dashboard",
+          "technologies": [
+            "Python",
+            "Oh My Pi",
+            "tmux",
+            "SQLite"
+          ],
+          "title": "Oh My Pi Usage Dashboard"
+        },
+        {
+          "description": "Native Oh My Pi skills for development, audits, delivery, and memory.",
+          "github": "https://github.com/MSpiechowicz/oh-my-pi-useful-skills",
+          "technologies": [
+            "Oh My Pi",
+            "JavaScript",
+            "Python"
+          ],
+          "title": "Oh My Pi Useful Skills"
+        },
+        {
+          "description": "Personal pi.dev configuration with extensions, settings, skills, and themes.",
+          "github": "https://github.com/MSpiechowicz/pi-config",
+          "technologies": [
+            "pi.dev",
+            "TypeScript",
+            "Lua"
+          ],
+          "title": "Pi Config"
+        },
+        {
+          "description": "An Oh My Pi activity-animation and presentation extension with masking dependent on host presentation-mask API support.",
+          "github": "https://github.com/MSpiechowicz/oh-my-pi-activity-mask",
+          "technologies": [
+            "TypeScript",
+            "Oh My Pi",
+            "TUI"
+          ],
+          "title": "Oh My Pi Activity Mask"
+        },
+        {
+          "description": "Personal WezTerm terminal configuration written in Lua.",
+          "github": "https://github.com/MSpiechowicz/wezterm-config",
+          "technologies": [
+            "WezTerm",
+            "Lua"
+          ],
+          "title": "WezTerm Config"
         }
       ],
       "title": "Projects"
