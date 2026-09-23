@@ -45,14 +45,12 @@
 			icon: IconWorldWww,
 			href: getWebsiteUrl(header.website),
 			target: '_blank',
-			rel: 'noopener noreferrer',
 			label: header.website
 		},
 		{
 			icon: IconMapPinFilled,
 			href: 'https://www.google.com/maps/search/' + header.location,
 			target: '_blank',
-			rel: 'noopener noreferrer',
 			label: header.location
 		}
 	];
@@ -64,7 +62,7 @@
 			<a
 				href={item.href}
 				target={item.target}
-				rel={item.rel}
+				rel="external noopener noreferrer"
 				class="text-text-header-secondary flex flex-row justify-center items-center gap-2 hover:underline hover:underline-offset-4"
 			>
 				<item.icon size={16} />

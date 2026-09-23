@@ -6,7 +6,7 @@ A modern, responsive CV/resume builder built with SvelteKit and TypeScript. Crea
 
 ## 🚀 Features
 
-- **Modern Tech Stack**: Built with SvelteKit 5, TypeScript, and Tailwind CSS
+- **Modern Tech Stack**: Built with SvelteKit 2, Svelte 5, TypeScript, and Tailwind CSS
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 - **Interactive Timeline**: Visual career progression with hover tooltips
 - **Modular Components**: Easy to customize and extend
@@ -22,7 +22,7 @@ Check out the live demo: **[View Live Demo](https://mspiechowicz.github.io/svelt
 
 ### Core Technologies
 
-- **SvelteKit 5** - Full-stack web framework
+- **SvelteKit 2 and Svelte 5** - Web framework and component UI
 - **TypeScript** - Type-safe JavaScript
 - **Tailwind CSS 4** - Utility-first CSS framework
 - **Vite** - Fast build tool and dev server
@@ -301,8 +301,8 @@ Each section contains different data structures:
 
 ### Prerequisites
 
-- Node.js 18+
-- npm, yarn, or pnpm
+- Node.js `^22.22.2 || ^24.15.0 || >=26.0.0` (CI uses Node.js 24)
+- npm
 
 ### Installation
 
