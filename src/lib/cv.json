@@ -275,6 +275,16 @@
             "Lua"
           ],
           "title": "WezTerm Config"
+        },
+        {
+          "description": "An animated desktop countdown app with multiple independent timers, customizable styles and sounds, and locally saved settings.",
+          "github": "https://github.com/MSpiechowicz/useful-timer",
+          "technologies": [
+            "Rust",
+            "egui/eframe",
+            "Rodio"
+          ],
+          "title": "Useful Timer"
         }
       ],
       "title": "Projects"
