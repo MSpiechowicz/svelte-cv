@@ -227,15 +227,27 @@
           "title": "Oh My Pi Anvil"
         },
         {
-          "description": "A tmux sidebar for Oh My Pi token activity, session history, and provider allowances.",
-          "github": "https://github.com/MSpiechowicz/oh-my-pi-usage-dashboard",
+          "description": "Live token charts, session history, and account allowances for Oh My Pi in a tmux sidebar and for Claude Code in a native pane, stored locally.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-sidebar",
           "technologies": [
             "Python",
+            "TypeScript",
             "Oh My Pi",
+            "Claude Code",
             "tmux",
             "SQLite"
           ],
-          "title": "Oh My Pi Usage Dashboard"
+          "title": "Harness Useful Sidebar"
+        },
+        {
+          "description": "A local app that tracks token usage and API-equivalent cost across AI coding tools such as Claude Code, Codex, Gemini CLI, and Oh My Pi, with interactive charts, budgets, and an MCP server.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-dashboard",
+          "technologies": [
+            "Svelte",
+            "TypeScript",
+            "SQLite"
+          ],
+          "title": "Harness Useful Dashboard"
         },
         {
           "description": "Native Oh My Pi skills for development, audits, delivery, and memory.",
