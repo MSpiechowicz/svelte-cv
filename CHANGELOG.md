@@ -3,6 +3,11 @@
 ### Added
 
 * Add Useful Timer to the CV projects with its description, technologies, and GitHub link.
+* Add Harness Useful Dashboard to the CV projects with its description, technologies, and GitHub link.
+
+### Changed
+
+* Replace Oh My Pi Usage Dashboard with Harness Useful Sidebar, its renamed repository.
 
 ## 1.0.0 (2025-09-16)
 
