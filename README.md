@@ -301,7 +301,7 @@ Each section contains different data structures:
 
 ### Prerequisites
 
-- Node.js `^22.22.2 || ^24.15.0 || >=26.0.0` (CI uses Node.js 24)
+- Node.js `^22.22.2 || ^24.15.0 || >=26.0.0` (CI uses Node.js 26)
 - npm
 
 ### Installation
