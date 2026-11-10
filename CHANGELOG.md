@@ -4,10 +4,15 @@
 
 * Add Useful Timer to the CV projects with its description, technologies, and GitHub link.
 * Add Harness Useful Dashboard to the CV projects with its description, technologies, and GitHub link.
+* Add the Harness Useful family website, Desktop, Memory, Knowledge, Code, and Test Portal to the CV projects.
+* Add the Anna Spiechowicz website, the earlier Maciej Spiechowicz website, and the personal website template to the CV projects.
 
 ### Changed
 
 * Replace Oh My Pi Usage Dashboard with Harness Useful Sidebar, its renamed repository.
+* Replace Oh My Pi Useful Skills with Harness Useful Skills, its renamed repository.
+* Move the Harness Useful family to the top of the CV projects, starting with its website.
+* Point the Business Card Style Website demo at its own deployment instead of annaspiechowicz.com, which is now a separate project.
 
 ## 1.0.0 (2025-09-16)
 

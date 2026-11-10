@@ -78,6 +78,107 @@
       "icon": "IconFoldersFilled",
       "projects": [
         {
+          "demo": "https://harness-useful.com",
+          "description": "The home of the Harness Useful family: six open source, local-first tools that upgrade a coding agent with a desktop window, workflow skills, project memory, documentation search, a code graph, and a usage meter.",
+          "github": "https://github.com/MSpiechowicz/harness-useful",
+          "technologies": [
+            "SvelteKit",
+            "Svelte 5",
+            "TypeScript",
+            "Bun"
+          ],
+          "title": "Harness Useful Family"
+        },
+        {
+          "description": "A native desktop app for coding-agent CLIs such as Claude Code, Codex, OpenCode, Oh My Pi, and Pi: chat with the agent, browse its sessions and branches, review the changes it made, and manage its configuration and extensions, all locally.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-desktop",
+          "technologies": [
+            "Rust",
+            "Tauri",
+            "Svelte 5",
+            "TypeScript",
+            "Tailwind CSS"
+          ],
+          "title": "Harness Useful Desktop"
+        },
+        {
+          "description": "Workflow skills for Oh My Pi, Claude Code, OpenCode, Codex, and Pi that take a natural-language request through research, planning, implementation, and review to verified work, with focused audits and pull request delivery.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-skills",
+          "technologies": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Claude Code",
+            "Oh My Pi"
+          ],
+          "title": "Harness Useful Skills"
+        },
+        {
+          "description": "A local MCP server that gives AI coding agents project memory: they search it at the start of a task and save fixes, decisions, and locations for the next session, stored per repository in SQLite with full-text search.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-memory",
+          "technologies": [
+            "Rust",
+            "MCP",
+            "SQLite"
+          ],
+          "title": "Harness Useful Memory"
+        },
+        {
+          "description": "A local MCP server that makes project documentation searchable for AI coding agents, with hybrid keyword and vector search over imported guides, ADRs, OpenAPI specs, and PDFs.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-knowledge",
+          "technologies": [
+            "Rust",
+            "MCP",
+            "SQLite"
+          ],
+          "title": "Harness Useful Knowledge"
+        },
+        {
+          "description": "A local MCP server that indexes a repository with tree-sitter and tells AI coding agents where code is defined, who uses it, and what breaks when it changes.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-code",
+          "technologies": [
+            "Rust",
+            "MCP",
+            "tree-sitter",
+            "SQLite"
+          ],
+          "title": "Harness Useful Code"
+        },
+        {
+          "description": "A local app that tracks token usage and API-equivalent cost across AI coding tools such as Claude Code, Codex, Gemini CLI, and Oh My Pi, with interactive charts, budgets, and an MCP server.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-dashboard",
+          "technologies": [
+            "Svelte",
+            "TypeScript",
+            "SQLite"
+          ],
+          "title": "Harness Useful Dashboard"
+        },
+        {
+          "description": "Live token charts, session history, and account allowances for Oh My Pi in a tmux sidebar and for Claude Code in a native pane, stored locally.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-sidebar",
+          "technologies": [
+            "Python",
+            "TypeScript",
+            "Oh My Pi",
+            "Claude Code",
+            "tmux",
+            "SQLite"
+          ],
+          "title": "Harness Useful Sidebar"
+        },
+        {
+          "description": "A local desktop app with practice tests for AI and LLM engineering: timed quizzes or a practice mode by topic and difficulty, with an explanation and sources for every question.",
+          "github": "https://github.com/MSpiechowicz/harness-useful-test-portal",
+          "technologies": [
+            "Tauri",
+            "SvelteKit",
+            "TypeScript",
+            "Rust"
+          ],
+          "title": "Harness Useful Test Portal"
+        },
+        {
           "demo": "https://mspiechowicz.github.io/project-palette/",
           "description": "A project palette generator that allows you to create a palette of similar colors for your project. It is built with React and Vite.",
           "github": "https://github.com/MSpiechowicz/project-palette",
@@ -172,7 +273,7 @@
           "title": "Svelte CV"
         },
         {
-          "demo": "https://annaspiechowicz.com",
+          "demo": "https://business-card-style-website.vercel.app",
           "description": "This is a basic business card website that you can use as a template for your personal website. It is built using React and Vite.",
           "github": "https://github.com/MSpiechowicz/business-card-style-website",
           "technologies": [
@@ -182,6 +283,38 @@
             "Vite"
           ],
           "title": "Business Card Style Website"
+        },
+        {
+          "demo": "https://annaspiechowicz.com",
+          "description": "A bilingual (English and German) portfolio website for a Product Owner and Business Analyst, built as a static Astro site with hand-written CSS, inline SVG diagrams, and no client framework.",
+          "github": "https://github.com/MSpiechowicz/annaspiechowicz.com",
+          "technologies": [
+            "Astro",
+            "TypeScript",
+            "CSS"
+          ],
+          "title": "Anna Spiechowicz Website"
+        },
+        {
+          "description": "An earlier version of my personal website, built with React 18 and Vite.",
+          "github": "https://github.com/MSpiechowicz/maciejspiechowicz.com",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite"
+          ],
+          "title": "Maciej Spiechowicz Website"
+        },
+        {
+          "description": "A personal website HTML5 template inspired by the HTML5 UP Identity project.",
+          "github": "https://github.com/MSpiechowicz/personal-website",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "title": "Personal Website Template"
         },
         {
           "description": "A collection of useful snippets for various programming languages and tools.",
@@ -225,39 +358,6 @@
             "SQLite"
           ],
           "title": "Oh My Pi Anvil"
-        },
-        {
-          "description": "Live token charts, session history, and account allowances for Oh My Pi in a tmux sidebar and for Claude Code in a native pane, stored locally.",
-          "github": "https://github.com/MSpiechowicz/harness-useful-sidebar",
-          "technologies": [
-            "Python",
-            "TypeScript",
-            "Oh My Pi",
-            "Claude Code",
-            "tmux",
-            "SQLite"
-          ],
-          "title": "Harness Useful Sidebar"
-        },
-        {
-          "description": "A local app that tracks token usage and API-equivalent cost across AI coding tools such as Claude Code, Codex, Gemini CLI, and Oh My Pi, with interactive charts, budgets, and an MCP server.",
-          "github": "https://github.com/MSpiechowicz/harness-useful-dashboard",
-          "technologies": [
-            "Svelte",
-            "TypeScript",
-            "SQLite"
-          ],
-          "title": "Harness Useful Dashboard"
-        },
-        {
-          "description": "Native Oh My Pi skills for development, audits, delivery, and memory.",
-          "github": "https://github.com/MSpiechowicz/oh-my-pi-useful-skills",
-          "technologies": [
-            "Oh My Pi",
-            "JavaScript",
-            "Python"
-          ],
-          "title": "Oh My Pi Useful Skills"
         },
         {
           "description": "Personal pi.dev configuration with extensions, settings, skills, and themes.",
