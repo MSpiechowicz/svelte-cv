@@ -6,6 +6,7 @@
 * Add Harness Useful Dashboard to the CV projects with its description, technologies, and GitHub link.
 * Add the Harness Useful family website, Desktop, Memory, Knowledge, Code, and Test Portal to the CV projects.
 * Add the Anna Spiechowicz website, the earlier Maciej Spiechowicz website, and the personal website template to the CV projects.
+* Add Network Flow to the CV projects with its description, technologies, demo, and GitHub link.
 
 ### Changed
 
